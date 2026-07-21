@@ -544,7 +544,7 @@
   year: 2026
   id: acra26
   full_name: Australasian Conference on Robotics and Automation
-  link: https://researchprofiles.canberra.edu.au/en/activities/2026-australasian-conference-on-robotics-and-automation/
+  link: https://www.araa.asn.au/conference/acra-2026/
   deadline: TBA
   place: Canberra, Australian Capital Territory, Australia
   date: November 30-December 2, 2026
@@ -552,7 +552,7 @@
   end: '2026-12-02'
   sub:
     - ROB
-  note: The organizer's official university listing confirms the event dates and location; an official submission deadline and time zone have not been published.
+  note: The official call lists September 20, 2026 as the paper deadline, October 15 as notification and November 10 as camera-ready, but does not specify a cutoff time or time zone.
 
 - title: IROS
   year: 2027
