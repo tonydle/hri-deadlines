@@ -18,7 +18,7 @@
             {{ site.description }}. To add/edit a conference,
             <a
               target="_blank"
-              href="//github.com/{{ site.github_username }}/{{ site.github_repo_confdatabase }}"
+              href="https://github.com/{{ site.github_username }}/{{ site.github_repo }}/edit/gh-pages/_data/conferences.yml"
               >send in a pull request</a
             >.
           </div>
@@ -34,7 +34,7 @@
                     class="align-center"
                     style="margin-bottom: 0px; line-height: 1.5"
                   >
-                    Subject Filter:
+                    Research Area Filter:
                   </label>
                 </div>
                 <div class="col-12 col-md-6">
@@ -66,10 +66,10 @@
           <div class="meta col-12">
             You can optionally export all deadlines to
             <a
-              href="https://calendar.google.com/calendar/r?cid={{ site.url }}/hci-deadlines.ics"
+              href="https://calendar.google.com/calendar/r?cid={{ site.url }}{{ site.baseurl }}/xr-hri-robotics-deadlines.ics"
               >Google Calendar</a
             >
-            or <a href="/hci-deadlines.ics">.ics</a>.
+            or <a href="{{ site.baseurl }}/xr-hri-robotics-deadlines.ics">.ics</a>.
           </div>
         </div>
       </div>

@@ -1,13 +1,14 @@
-title: ⏰ HCI Conference Deadlines
-description: Countdowns to top HCI conference deadlines
-author: Andrea Bianchi
+title: XR, HRI & Robotics Deadlines
+description: Countdowns to major XR, human–robot interaction and robotics conference deadlines
+author: Tony Le
 
-domain: 'hci-deadlines.github.io'
-baseurl: ''
+url: 'https://tonydle.github.io'
+domain: 'tonydle.github.io'
+baseurl: '/hri-deadlines'
 
-twitter_hashtag: hci-deadlines
-github_username: hci-deadlines
-github_repo_confdatabase: conf-database
+twitter_hashtag: robotics-deadlines
+github_username: tonydle
+github_repo: hri-deadlines
 
 markdown: kramdown
 ga_id:

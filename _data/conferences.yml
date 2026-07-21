@@ -1,1859 +1,712 @@
-
-- title: ACII
-  year: 2023
-  id: acii2023
-  link: https://acii-conf.net/2023/calls/papers/
-  deadline: '2023-01-05 23:59:59'
-  timezone: UTC-12
-  place: Cambridge, Massachusetts, USA
-  date: September, 10-13, 2023
-  start: 2023-09-10
-  end: 2023-09-13
-  sub: HCI
-
-- title: ACII
-  year: 2024
-  id: acii2024
-  link: https://acii-conf.net/2024/calls/papers/
-  deadline: '2024-03-15 23:59:59'
-  timezone: UTC-12
-  place: Glasgow, UK
-  date: September, 16-18, 2024
-  start: 2024-09-16
-  end: 2024-09-18
-  sub: HCI
-
-- title: ACII
-  year: 2025
-  id: acii2025
-  link: https://acii-conf.net/2025/call-for-papers/
-  deadline: '2025-03-31 23:59:59'
-  timezone: UTC-12
-  place: Canberra, Australia
-  date: October, 8-11, 2025
-  start: 2025-10-08
-  end: 2025-10-11
-  sub: HCI
-
-- title: ACM Multimedia
-  year: 2026
-  id: acmmm26
-  full_name: ACM International Conference on Multimedia
-  link: https://2026.acmmm.org/
-  deadline: '2026-04-01 23:59:59'
-  abstract_deadline: '2026-03-25 23:59:59'
-  timezone: UTC-12
-  place: Rio de Janeiro, Brazil
-  date: November, 10-14, 2026
-  start: 2026-11-10
-  end: 2026-11-14
-  sub: ['HCI', 'GM']
-  note: Main-track abstract registration deadline March 25.
-
-- title: ASSETS
-  year: 2023
-  id: assets23
-  link: https://assets23.sigaccess.org
-  deadline: '2023-05-03 23:59:59'
-  timezone: UTC-12
-  place: New York, NY, USA
-  date: October, 23-25, 2023
-  start: 2023-10-23
-  end: 2023-10-25
-  sub: HCI
-
-- title: ASSETS
-  year: 2024
-  id: assets24
-  link: https://assets24.sigaccess.org
-  deadline: '2024-04-24 23:59:59'
-  timezone: UTC-12
-  place: St Johns, Newfoundland and Labrador, Canada
-  date: October, 27-30, 2024
-  start: 2024-10-27
-  end: 2024-10-30
-  sub: HCI
-
-- title: ASSETS
-  year: 2025
-  id: assets25
-  link: https://assets25.sigaccess.org
-  deadline: '2025-04-16 23:59:59'
-  timezone: UTC-12
-  place: Denver, Colorado, USA
-  date: October, 26-29 2025
-  start: 2025-10-26
-  end: 2025-10-29
-  sub: HCI
-
-- title: ASSETS
-  year: 2026
-  id: assets26
-  link: https://assets26.sigaccess.org
-  deadline: '2026-04-22 23:59:59'
-  timezone: UTC-12
-  place: Porto, Portugal
-  date: October, 25–28 2026
-  start: 2026-10-25
-  end: 2026-10-28
-  sub: HCI
-
-- title: Augmented Humans
-  year: 2024
-  id: ah24
-  link: https://augmented-humans.org/calls-for-participation/
-  deadline: '2023-01-16 23:59:59'
-  timezone: UTC-12
-  place: Melbourne, Australia
-  date: April, 4-6, 2024
-  start: 2024-04-04
-  end: 2024-04-06
-  sub: HCI
-
-- title: Augmented Humans
-  year: 2025
-  id: ah25
-  link: https://augmented-humans.org/calls-for-participation/
-  deadline: '2025-01-16 23:59:59'
-  timezone: UTC-12
-  place: Abu Dhabi, United Arab Emirates
-  date: March, 12-20, 2025
-  start: 2025-03-12
-  end: 2025-03-20
-  sub: HCI
-
-- title: Augmented Humans
-  year: 2026
-  id: ah26
-  link: https://augmented-humans.org/calls-for-participation/
-  deadline: '2025-11-18 23:59:59'
-  timezone: UTC-12
-  place: Okinawa, Japan
-  date: March, 16-19, 2026
-  start: 2026-03-16
-  end: 2026-03-19
-  sub: HCI
-
-- title: AutoUI
-  year: 2023
-  id: autoui23
-  link: https://www.auto-ui.org/23/
-  deadline: '2023-04-19 23:59:59'
-  timezone: UTC-12
-  place: Ingolstadt, Germany
-  date: September, 18-21, 2023
-  start: 2023-09-18
-  end: 2023-09-21
-  sub: HCI
-  note: Mandatory abstract deadline on April 12, 2023.
-
-- title: AutoUI
-  year: 2024
-  id: autoui24
-  link: https://www.auto-ui.org/24/
-  deadline: '2024-04-17 23:59:59'
-  abstract_deadline: '2024-04-10 23:59:59'
-  timezone: UTC-12
-  place: Stanford, CA, USA
-  date: September, 22-25, 2024
-  start: 2024-09-22
-  end: 2024-09-25
-  sub: HCI
-
-- title: AutoUI
-  year: 2025
-  id: autoui25
-  link: https://www.auto-ui.org/25/
-  deadline: '2025-04-10 23:59:59'
-  abstract_deadline: '2025-04-03 23:59:59'
-  timezone: UTC-12
-  place: Brisbane, Australia
-  date: September, 20-24, 2025
-  start: 2025-09-20
-  end: 2025-09-24
-  sub: HCI
-
-- title: AutoUI
-  year: 2026
-  id: autoui26
-  link: https://www.auto-ui.org/26/papers/
-  deadline: "2026-04-09 23:59:59"
-  abstract_deadline: "2026-04-02 23:59:59"
-  timezone: UTC-12
-  place: Gothenburg, Sweden
-  date: September, 20-23, 2026
-  start: 2026-09-20
-  end: 2026-09-23
-  sub: HCI
-
-- title: 'ACM Creativity & Cognition (C&C)'
-  year: 2025
-  id: cc25
-  full_name: 'ACM Creativity & Cognition Conference'
-  link: https://cc.acm.org/2025/
-  deadline: '2025-02-06 23:59:59'
-  abstract_deadline: '2025-01-30 23:59:59'
-  timezone: UTC-12
-  place: Online
-  date: June, 23-25, 2025
-  start: 2025-06-23
-  end: 2025-06-25
-  sub: HCI
-
-- title: 'ACM Creativity & Cognition (C&C)'
-  year: 2026
-  id: cc26
-  full_name: 'ACM Creativity & Cognition Conference'
-  link: https://cc.acm.org/2026/
-  deadline: '2026-02-05 23:59:59'
-  abstract_deadline: '2026-01-29 23:59:59'
-  timezone: UTC-12
-  place: London, UK
-  date: July, 13-16, 2026
-  start: 2026-07-13
-  end: 2026-07-16
-  sub: HCI
-
-- title: CHI
-  year: 2023
-  id: chi23
-  link: https://chi2023.acm.org
-  deadline: '2022-09-15 23:59:59'
-  timezone: UTC-12
-  place: Hamburg, Germany
-  date: April, 23-28, 2023
-  start: 2023-04-23
-  end: 2023-04-28
-  sub: HCI
-
-- title: CHI
-  year: 2024
-  id: chi24
-  link: https://chi2024.acm.org
-  deadline: '2023-09-14 23:59:59'
-  timezone: UTC-12
-  place: Honolulu, HI, USA
-  date: May, 11-16, 2024
-  start: 2024-05-11
-  end: 2024-05-16
-  sub: HCI
-  note: Mandatory abstract deadline on September 7, 2023.
-
-- title: CHI
-  year: 2025
-  id: chi25
-  link: https://chi2025.acm.org
-  deadline: '2024-09-12 23:59:59'
-  abstract_deadline: '2024-09-05 23:59:59'
-  timezone: UTC-12
-  place: Yokohama, Japan
-  date: April, 26 - May, 1, 2025
-  start: 2025-04-26
-  end: 2025-05-01
-  sub: HCI
-
-- title: CHI
-  year: 2026
-  id: chi26
-  link: https://chi2026.acm.org
-  deadline: '2025-09-11 23:59:59'
-  abstract_deadline: '2025-09-04 23:59:59'
-  timezone: UTC-12
-  place: Barcelona, Spain
-  date: April, 13-17, 2026
-  start: 2026-04-13
-  end: 2026-04-17
-  sub: HCI
-
-- title: CHI
-  year: 2027
-  id: chi27
-  link: https://chi2027.acm.org
-  deadline: '2026-09-10 23:59:59'
-  timezone: UTC-12
-  place: Pittsburgh, USA
-  date: May, 10-14, 2027
-  start: 2027-05-10
-  end: 2027-05-14
-  sub: HCI
-  note: No abstract deadline
-
-- title: CHI PLAY
-  year: 2023
-  id: chiplay23
-  link: https://chiplay.acm.org/2023/
-  deadline: '2023-02-21 23:59:59'
-  timezone: UTC-12
-  place: Stratford, Canada
-  date: October, 10-13, 2023
-  start: 2023-10-10
-  end: 2023-10-13
-  sub: HCI
-
-- title: CHI PLAY
-  year: 2024
-  id: chiplay24
-  link: https://chiplay.acm.org/2024/
-  deadline: '2024-02-21 23:59:59'
-  timezone: UTC-12
-  place: Tampere, Finland
-  date: October, 14-17, 2024
-  start: 2024-10-14
-  end: 2024-10-17
-  sub: HCI
-
-- title: CHI PLAY
-  year: 2025
-  id: chiplay25
-  link: https://chiplay.acm.org/2025/
-  deadline: '2025-02-19 23:59:59'
-  timezone: UTC-12
-  place: Pittsburgh, Pennsylvania, USA
-  date: October, 13-16, 2025
-  start: 2025-10-13
-  end: 2025-10-16
-  sub: HCI
-
-- title: CHItaly
-  year: 2023
-  id: chitaly23
-  link: https://chitaly2023.it/call_for_papers/
-  deadline: '2023-03-31 23:59:59'
-  timezone: UTC-12
-  place: Turin, Italy
-  date: September, 20-22, 2023
-  start: 2023-09-20
-  end: 2023-09-22
-  sub: HCI
-
-- title: CHItaly
-  year: 2025
-  id: chitaly25
-  link: https://chitaly2025.di.unisa.it/contributions-call-for-papers/
-  deadline: '2025-04-21 23:59:59'
-  timezone: UTC-12
-  place: Salerno, Italy
-  date: October, 6-10, 2025
-  start: 2025-10-06
-  end: 2025-10-10
-  sub: HCI
-
-- title: CSCW
-  year: 2023
-  id: cscw23
-  link: https://cscw.acm.org/2023
-  deadline: '2023-01-15 23:59:59'
-  timezone: UTC-12
-  place: Minneapolis, MN, USA
-  date: October, 14-18, 2023
-  start: 2023-10-14
-  end: 2023-10-18
-  hindex: 48
-  sub: CSCW
-
-- title: CSCW (July cycle)
-  year: 2024
-  id: cscw24_july
-  link: https://cscw.acm.org/2024/index.php/submit-papers/
-  deadline: '2023-07-18 23:59:59'
-  timezone: UTC-12
-  place: San José, Costa Rica
-  date: November, 9-13, 2024
-  start: 2024-11-09
-  end: 2024-11-13
-  sub: CSCW
-
-- title: CSCW (January cycle)
-  year: 2024
-  id: cscw24_january
-  link: https://cscw.acm.org/2024/index.php/submit-papers/
-  deadline: '2024-01-16 23:59:59'
-  timezone: UTC-12
-  place: San José, Costa Rica
-  date: November, 9-13, 2024
-  start: 2024-11-09
-  end: 2024-11-13
-  sub: CSCW
-
-- title: CSCW (October cycle)
-  year: 2025
-  id: cscw25_october
-  link: https://cscw.acm.org/2025/index.php/submit-papers/
-  deadline: '2024-10-29 23:59:59'
-  timezone: UTC-12
-  place: Bergen, Norway
-  date: October, 18-22, 2025
-  start: 2025-10-18
-  end: 2025-10-22
-  sub: CSCW
-
-- title: CSCW
-  year: 2026
-  id: cscw26
-  link: https://cscw.acm.org/2026/papers.html
-  deadline: '2025-05-14 04:00:00'
-  timezone: UTC-12
-  place: Salt Lake City, Utah, USA
-  date: October, 10-14, 2026
-  start: 2026-10-10
-  end: 2026-10-14
-  sub: CSCW
-
-- title: CUI
-  year: 2023
-  id: cui23
-  full_name: Conversational User Interfaces
-  link: https://cui.acm.org/2023/
-  deadline: '2023-02-22 23:59:59'
-  abstract_deadline: '2023-02-15 23:59:59'
-  timezone: UTC-12
-  place: Eindhoven, Netherlands
-  date: July, 19-21, 2023
-  start: 2023-07-19
-  end: 2023-07-21
-  sub: HCI
-
-- title: CUI
-  year: 2024
-  id: cui24
-  full_name: Conversational User Interfaces
-  link: https://cui.acm.org/2024/
-  deadline: '2024-02-29 23:59:59'
-  abstract_deadline: '2024-02-22 23:59:59'
-  timezone: UTC-12
-  place: Luxembourg City, Luxembourg
-  date: July, 8-10, 2024
-  start: 2024-07-08
-  end: 2024-07-10
-  sub: HCI
-
-- title: CUI
-  year: 2025
-  id: cui25
-  full_name: Conversational User Interfaces
-  link: https://cui.acm.org/2025/
-  deadline: '2025-02-20 23:59:59'
-  abstract_deadline: '2025-02-13 23:59:59'
-  timezone: UTC-12
-  place: Waterloo, Ontario, Canada
-  date: July, 8-10, 2025
-  start: 2025-07-08
-  end: 2025-07-10
-  sub: HCI
-
-- title: CUI
-  year: 2026
-  id: cui26
-  full_name: Conversational User Interfaces
-  link: https://cui.acm.org/2026/
-  deadline: '2026-03-05 23:59:59'
-  abstract_deadline: '2026-02-26 23:59:59'
-  timezone: UTC-12
-  place: Bremen, Germany
-  date: July, 21–24, 2026
-  start: 2026-07-21
-  end: 2026-07-24
-  sub: HCI
-
-- title: DIS
-  year: 2023
-  id: dis23
-  link: https://dis.acm.org/2023/
-  deadline: '2023-02-13 23:59:59'
-  timezone: UTC-12
-  place: Pittsburgh, Pennsylvania, USA
-  date: July, 10-14, 2023
-  start: 2023-07-10
-  end: 2023-07-14
-  hindex: 41
-  sub: DES
-
-- title: DIS
-  year: 2024
-  id: dis24
-  link: https://dis.acm.org/2024/
-  deadline: '2024-02-08 23:59:59'
-  abstract_deadline: '2024-02-01 23:59:59'
-  timezone: UTC-12
-  place: Copenhagen, Denmark
-  date: July, 1-5, 2024
-  start: 2024-07-01
-  end: 2024-07-05
-  sub: DES
-
-- title: DIS
-  year: 2025
-  id: dis25
-  link: https://dis.acm.org/2025/
-  deadline: '2025-01-19 23:59:59'
-  abstract_deadline: '2025-01-12 23:59:59'
-  timezone: UTC-12
-  place: Funchal, Madeira
-  date: July, 5-9, 2025
-  start: 2025-07-05
-  end: 2025-07-09
-  sub: DES
-
-- title: DIS
-  year: 2026
-  id: dis26
-  link: https://dis.acm.org/2026/
-  deadline: '2026-01-19 23:59:59'
-  abstract_deadline: '2026-01-09 23:59:59'
-  timezone: UTC-12
-  place: Singapore
-  date: June, 13-17, 2026
-  start: 2026-06-13
-  end: 2026-06-17
-  sub: DES
-
-- title: EICS PACM (Round 2)
-  year: 2024
-  id: eics24_2
-  full_name: Symposium on Engineering Interactive Computing Systems
-  link: https://eics.acm.org/2024/
-  deadline: '2023-10-26 23:59:59'
-  timezone: UTC-12
-  place: Cagliari, Italy
-  date: June, 24-28, 2024
-  start: 2024-06-24
-  end: 2024-06-28
-  sub: HCI
-
-- title: EICS PACM (Round 3)
-  year: 2024
-  id: eics24_3
-  full_name: Symposium on Engineering Interactive Computing Systems
-  link: https://eics.acm.org/2024/
-  deadline: '2024-02-16 23:59:59'
-  timezone: UTC-12
-  place: Cagliari, Italy
-  date: June, 24-28, 2024
-  start: 2024-06-24
-  end: 2024-06-28
-  sub: HCI
-
-- title: EICS PACM (Round 1)
-  year: 2025
-  id: eics25_1
-  full_name: Symposium on Engineering Interactive Computing Systems
-  link: https://eics.acm.org/2025/
-  deadline: '2024-07-26 23:59:59'
-  timezone: UTC-12
-  place: Trier, Germany
-  date: June, 24-28, 2025
-  start: 2025-06-24
-  end: 2025-06-28
-  sub: HCI
-
-- title: EICS PACM (Round 2)
-  year: 2025
-  id: eics25_2
-  full_name: Symposium on Engineering Interactive Computing Systems
-  link: https://eics.acm.org/2025/
-  deadline: '2024-10-25 23:59:59'
-  timezone: UTC-12
-  place: Trier, Germany
-  date: June, 24-28, 2025
-  start: 2025-06-24
-  end: 2025-06-28
-  sub: HCI
-
-- title: EICS PACM (Round 3)
-  year: 2025
-  id: eics25_3
-  full_name: Symposium on Engineering Interactive Computing Systems
-  link: https://eics.acm.org/2025/
-  deadline: '2025-02-14 23:59:59'
-  timezone: UTC-12
-  place: Trier, Germany
-  date: June, 24-28, 2025
-  start: 2025-06-24
-  end: 2025-06-28
-  sub: HCI
-
-- title: EICS PACM (Round 1)
-  year: 2026
-  id: eics26_1
-  full_name: Symposium on Engineering Interactive Computing Systems
-  link: https://eics.acm.org/2026/
-  deadline: '2025-07-25 23:59:59'
-  timezone: UTC-12
-  place: Patras, Greece
-  date: June 30 - July 3, 2026
-  start: 2026-06-30
-  end: 2026-07-03
-  sub: HCI
-
-- title: EICS PACM (Round 2)
-  year: 2026
-  id: eics26_2
-  full_name: Symposium on Engineering Interactive Computing Systems
-  link: https://eics.acm.org/2026/
-  deadline: '2025-10-24 23:59:59'
-  timezone: UTC-12
-  place: Patras, Greece
-  date: June 30 - July 3, 2026
-  start: 2026-06-30
-  end: 2026-07-03
-  sub: HCI
-
-- title: EICS PACM (Round 3)
-  year: 2026
-  id: eics26_3
-  full_name: Symposium on Engineering Interactive Computing Systems
-  link: https://eics.acm.org/2026/
-  deadline: '2026-02-13 23:59:59'
-  timezone: UTC-12
-  place: Patras, Greece
-  date: June 30 - July 3, 2026
-  start: 2026-06-30
-  end: 2026-07-03
-  sub: HCI
-
-- title: evoMUSART
-  year: 2025
-  id: evomusart25
-  full_name: evomusart 2025
-  link: https://www.evostar.org/2025/evomusart/
-  deadline: 2024-11-01 23:59
-  abstract_deadline: 2024-11-01 23:59
-  timezone: UTC-12
-  place: Trieste, Italy
-  date: April, 23-25, 2025
-  start: 2025-04-23
-  end: 2025-04-25
-  paperslink: https://evomusart-index.dei.uc.pt/
-  sub: ['AI', 'DES', 'VIS', 'CSCW']
-  note: part of evostar 2025
-
-- title: evoMUSART
-  year: 2026
-  id: evomusart26
-  full_name: evomusart 2026
-  link: https://www.evostar.org/2026/evomusart/
-  deadline: 2025-11-01 23:59
-  timezone: UTC-12
-  place: Toulouse, France
-  date: April, 8-10, 2026
-  start: 2026-04-08
-  end: 2026-04-10
-  sub: ['AI', 'DES', 'VIS', 'CSCW']
-  note: part of evostar 2026
-
-- title: FAccT
-  year: 2023
-  id: facct23
-  link: https://facctconference.org/2023/cfp.html
-  deadline: '2023-02-06 23:59:59'
-  abstract_deadline: '2023-01-30 23:59:59'
-  timezone: UTC-12
-  place: Chicago, IL, USA
-  date: June, 12-15, 2023
-  start: 2023-06-12
-  end: 2023-06-15
-  sub: HCI
-
-- title: FAccT
-  year: 2024
-  id: facct24
-  link: https://facctconference.org/2024/cfp.html
-  deadline: '2024-01-22 23:59:59'
-  abstract_deadline: '2024-01-15 23:59:59'
-  timezone: UTC-12
-  place: Rio de Janeiro, Brazil
-  date: June, 3-6, 2024
-  start: 2024-06-03
-  end: 2024-06-06
-  sub: HCI
-
-- title: FAccT
-  year: 2025
-  id: facct25
-  link: https://facctconference.org/2025/
-  deadline: '2025-01-22 23:59:59'
-  abstract_deadline: '2025-01-15 23:59:59'
-  timezone: UTC-12
-  place: Athens, Greece
-  date: TBD
-  sub: HCI
-
-- title: Graphics Interface (December round)
-  year: 2025
-  id: gi25dec
-  link: https://graphicsinterface.org/conference/2025/
-  deadline: '2024-12-15 23:59:59'
-  timezone: UTC-12
-  place: Kelowna, British Columbia, Canada
-  date: May, 26-29, 2025
-  start: 2025-05-26
-  end: 2025-05-29
-  hindex: 56
-  sub: ['HCI', 'GM']
-
-- title: Graphics Interface (March round)
-  year: 2025
-  id: gi25mar
-  link: https://graphicsinterface.org/conference/2025/
-  deadline: '2025-03-07 23:59:59'
-  timezone: UTC-12
-  place: Kelowna, British Columbia, Canada
-  date: May, 26-29, 2025
-  start: 2025-05-26
-  end: 2025-05-29
-  hindex: 56
-  sub: ['HCI', 'GM']
-
-- title: Graphics Interface (January round)
-  year: 2026
-  id: gi26jan
-  link: https://conferences.graphicsinterface.org/2026/
-  deadline: '2026-01-30 23:59:59'
-  timezone: UTC-12
-  place: Kitchner-Waterloo, Ontario, Canada
-  date: June, 09-12, 2026
-  start: 2026-06-09
-  end: 2026-06-12
-  hindex: 56
-  sub: ['HCI', 'GM']
-
-- title: Graphics Interface (April round)
-  year: 2026
-  id: gi26apr
-  link: https://conferences.graphicsinterface.org/2026/
-  deadline: '2026-04-03 23:59:59'
-  timezone: UTC-12
-  place: Kitchner-Waterloo, Ontario, Canada
-  date: June, 09-12, 2026
-  start: 2026-06-09
-  end: 2026-06-12
-  hindex: 56
-  sub: ['HCI', 'GM']
-
-- title: GROUP (second wave)
-  year: 2025
-  id: group25
-  link: https://group.acm.org/conferences/group25/
-  deadline: '2024-05-08 23:59:59'
-  abstract_deadline: '2024-05-01 23:59:59'
-  timezone: UTC-12
-  place: Sonesta Resort, South Carolina, USA
-  date: January, 12-15, 2025
-  start: 2025-01-12
-  end: 2025-01-15
-  sub: HCI
-
-- title: HAIPS
-  year: 2025
-  id: haips25
-  full_name: 1st Workshop on Human-Centered AI Privacy and Security
-  link: https://haips.com
-  deadline: 2025-06-20 23:59
-  timezone: UTC-12
-  place: Taipei, Taiwan
-  date: October, 17, 2025
-  paperslink: https://haips.com
-  sub: ['AI', 'SP', 'HCI']
-  note: co-located with ACM CCS 2025
-
-- title: HRI
-  year: 2023
-  id: hri23
-  link: https://humanrobotinteraction.org/2023/
-  deadline: '2022-10-03 23:59:59'
-  timezone: UTC-12
-  place: Stockholm, Sweden
-  date: March, 13-16, 2023
-  start: 2023-03-13
-  end: 2023-03-16
-  sub: HRI
-
-- title: HRI
-  year: 2024
-  id: hri24
-  link: https://humanrobotinteraction.org/2024
-  deadline: '2023-09-29 23:59:59'
-  timezone: UTC-12
-  place: Boulder, Colorado, USA
-  date: March, 11-15, 2024
-  start: 2024-03-11
-  end: 2024-03-15
-  sub: HRI
-
-- title: HRI
-  year: 2025
-  id: hri25
-  link: https://humanrobotinteraction.org/2025
-  deadline: '2024-10-01 23:59:59'
-  abstract_deadline: '2024-09-23 23:59:59'
-  timezone: UTC-12
-  place: Melbourne, Australia
-  date: March, 3-6, 2025
-  start: 2025-03-03
-  end: 2025-03-06
-  sub: HRI
-
-- title: HRI
-  year: 2026
-  id: hri26
-  link: https://humanrobotinteraction.org/2026
-  deadline: '2025-09-30 23:59:59'
-  abstract_deadline: '2025-09-22 23:59:59'
-  timezone: UTC-12
-  place: Edinburgh, Scotland
-  date: March, 16-19, 2026
-  start: 2026-03-16
-  end: 2026-03-19
-  sub: HRI
-
-- title: ICMI
-  year: 2023
-  id: icmi2023
-  link: https://icmi.acm.org/2023/call-for-papers/
-  deadline: '2023-05-01 23:59:59'
-  timezone: UTC-12
-  place: Paris, France
-  date: October, 9-13, 2023
-  start: 2023-10-9
-  end: 2023-10-13
-  sub: HCI
-
-- title: ICMI
-  year: 2024
-  id: icmi2024
-  link: https://icmi.acm.org/2024/call-for-papers/
-  deadline: '2024-05-03 23:59:59'
-  timezone: UTC-12
-  place: San José, Costa Rica
-  date: November, 4-8, 2024
-  start: 2024-11-04
-  end: 2024-11-08
-  sub: HCI
-  abstract_deadline: '2023-04-26 23:59:59'
-
-- title: ICMI
-  year: 2025
-  id: icmi2025
-  link: https://icmi.acm.org/2025/call-for-papers/
-  deadline: '2025-04-25 23:59:59'
-  abstract_deadline: '2025-04-18 23:59:59'
-  timezone: UTC-12
-  place: Canberra, Australia
-  date: October, 13-17, 2025
-  start: 2025-10-13
-  end: 2025-10-17
-  sub: HCI
-
-- title: ICMI
-  year: 2026
-  id: icmi2026
-  link: https://icmi.acm.org/2026/call-for-papers/
-  deadline: '2026-04-20 23:59:59'
-  abstract_deadline: '2026-04-13 23:59:59'
-  timezone: UTC-7
-  place: Napoli, Italy
-  date: October, 5-9, 2026
-  start: 2026-10-05
-  end: 2026-10-09
-  sub: HCI
-
-- title: ICSR
-  year: 2026
-  id: icsr26
-  link: https://icsr2026.uk
-  deadline: '2026-02-15 23:59:59'
-  timezone: UTC-12
-  place: London, England
-  date: July, 1-4, 2026
-  start: 2026-07-1
-  end: 2026-07-4
-  sub: HRI
-
-- title: ACM IDC
-  year: 2026
-  id: idc26
-  full_name: ACM Interaction Design and Children
-  link: https://idc.acm.org/2026/
-  deadline: '2026-01-27 23:59:59'
-  abstract_deadline: '2026-01-20 23:59:59'
-  timezone: UTC-12
-  place: Brighton, UK
-  date: June, 22-25, 2026
-  start: 2026-06-22
-  end: 2026-06-25
-  sub: ['HCI', 'DES']
-
-- title: Ubicomp/ISWC (IMWUT Issue 1)
-  year: 2023
-  id: imwut23_1
-  link: https://www.ubicomp.org/ubicomp-iswc-2023/cfp/imwut_papers/
-  deadline: '2022-11-15 23:59:59'
-  timezone: UTC-12
-  place: Cancun, Mexico
-  date: October, 8-12, 2023
-  start: 2023-10-08
-  end: 2023-10-12
-  hindex: 58
-  sub: HCI
-
-- title: Ubicomp/ISWC (IMWUT Issue 2)
-  year: 2023
-  id: imwut23_2
-  link: https://www.ubicomp.org/ubicomp-iswc-2023/cfp/imwut_papers/
-  deadline: '2023-02-15 23:59:59'
-  timezone: UTC-12
-  place: Cancun, Mexico
-  date: October, 8-12, 2023
-  start: 2023-10-08
-  end: 2023-10-12
-  hindex: 58
-  sub: HCI
-
-- title: Ubicomp/ISWC (IMWUT Issue 3)
-  year: 2023
-  id: imwut23_3
-  link: https://www.ubicomp.org/ubicomp-iswc-2023/cfp/imwut_papers/
-  deadline: '2023-05-15 23:59:59'
-  timezone: UTC-12
-  place: Cancun, Mexico
-  date: October, 8-12, 2023
-  start: 2023-10-08
-  end: 2023-10-12
-  hindex: 58
-  sub: HCI
-
-- title: Ubicomp/ISWC (IMWUT Issue 1)
-  year: 2024
-  id: imwut24_1
-  link: https://www.ubicomp.org/ubicomp-iswc-2024/imwut_papers/
-  deadline: '2023-11-15 23:59:59'
-  timezone: UTC-12
-  place: Melbourne, Australia
-  date: October, 5-9, 2024
-  start: 2024-10-05
-  end: 2024-10-09
-  sub: HCI
-
-- title: Ubicomp/ISWC (IMWUT Issue 2)
-  year: 2024
-  id: imwut24_2
-  link: https://www.ubicomp.org/ubicomp-iswc-2024/imwut_papers/
-  deadline: '2024-02-01 23:59:59'
-  timezone: UTC-12
-  place: Melbourne, Australia
-  date: October, 5-9, 2024
-  start: 2024-10-05
-  end: 2024-10-09
-  sub: HCI
-
-- title: Ubicomp/ISWC (IMWUT Issue 3)
-  year: 2024
-  id: imwut24_3
-  link: https://www.ubicomp.org/ubicomp-iswc-2024/imwut_papers/
-  deadline: '2024-05-01 23:59:59'
-  timezone: UTC-12
-  place: Melbourne, Australia
-  date: October, 5-9, 2024
-  start: 2024-10-05
-  end: 2024-10-09
-  sub: HCI
-
-- title: Ubicomp/ISWC (IMWUT Issue 1)
-  year: 2025
-  id: imwut25_1
-  link: https://www.ubicomp.org/ubicomp-iswc-2025/imwut_papers/
-  deadline: '2024-11-01 23:59:59'
-  timezone: UTC-12
-  place: Espoo, Finland
-  date: October, 14-16, 2025
-  start: 2025-10-14
-  end: 2025-10-16
-  sub: HCI
-
-- title: Ubicomp/ISWC (IMWUT Issue 2)
-  year: 2025
-  id: imwut25_2
-  link: https://www.ubicomp.org/ubicomp-iswc-2025/imwut_papers/
-  deadline: '2025-02-01 23:59:59'
-  timezone: UTC-12
-  place: Espoo, Finland
-  date: October, 14-16, 2025
-  start: 2025-10-14
-  end: 2025-10-16
-  sub: HCI
-
-- title: Ubicomp/ISWC (IMWUT Issue 3)
-  year: 2025
-  id: imwut25_3
-  link: https://www.ubicomp.org/ubicomp-iswc-2025/imwut_papers/
-  deadline: '2025-05-01 23:59:59'
-  timezone: UTC-12
-  place: Espoo, Finland
-  date: October, 14-16, 2025
-  start: 2025-10-14
-  end: 2025-10-16
-  sub: HCI
-
-- title: IMWUT (Ubicomp/ISWC)
-  year: 2026
-  id: imwut26_1
-  link: https://www.ubicomp.org/ubicomp-iswc-2026/imwut-papers/
-  deadline: '2025-11-01 23:59:59'
-  timezone: UTC-12
-  place: Shanghai, China
-  date: October, 13-15, 2026
-  start: 2026-10-13
-  end: 2026-10-15
-  sub: HCI
-
-- title: IMWUT (Ubicomp/ISWC)
-  year: 2026
-  id: imwut26_2
-  link: https://www.ubicomp.org/ubicomp-iswc-2026/imwut-papers/
-  deadline: '2026-02-01 23:59:59'
-  timezone: UTC-12
-  place: Shanghai, China
-  date: October, 13-15, 2026
-  start: 2026-10-13
-  end: 2026-10-15
-  sub: HCI
-
-- title: IMWUT (Ubicomp/ISWC)
-  year: 2026
-  id: imwut26_3
-  link: https://www.ubicomp.org/ubicomp-iswc-2026/imwut-papers/
-  deadline: '2026-05-01 23:59:59'
-  timezone: UTC-12
-  place: Shanghai, China
-  date: October, 13-15, 2026
-  start: 2026-10-13
-  end: 2026-10-15
-  sub: HCI
-
-- title: IMWUT (Ubicomp/ISWC)
-  year: 2026
-  id: imwut26_4
-  link: https://www.ubicomp.org/ubicomp-iswc-2026/imwut-papers/
-  deadline: '2026-08-01 23:59:59'
-  timezone: UTC-12
-  place: Shanghai, China
-  date: October, 13-15, 2026
-  start: 2026-10-13
-  end: 2026-10-15
-  sub: HCI
-
-- title: ACM IMX
-  year: 2026
-  id: imx26
-  full_name: ACM International Conference on Interactive Media Experiences
-  link: https://imx.acm.org/2026/authors/important-dates/
-  deadline: '2026-01-22 23:59:59'
-  abstract_deadline: ''
-  timezone: UTC-12
-  place: Athlone, Ireland
-  date: June, 9-11, 2026
-  start: 2026-06-09
-  end: 2026-06-11
-  sub: ['HCI', 'GM']
-
-- title: ISMAR (Journal Papers)
-  year: 2023
-  id: ismar23j
-  link: https://ismar23.org/call-for-journal-papers/
-  deadline: '2023-03-25 23:59:59'
-  timezone: UTC-12
-  place: Sydney, Australia
-  date: October, 16-20, 2023
-  start: 2023-10-16
-  end: 2023-10-20
-  sub: XR
-  note: Mandatory abstract deadline on March 19, 2023.
-
-- title: ISMAR (Conference Papers)
-  year: 2023
-  id: ismar23c
-  link: https://ismar23.org/call-for-conference-papers/
-  deadline: '2023-06-12 23:59:59'
-  timezone: UTC-12
-  place: Sydney, Australia
-  date: October, 16-20, 2023
-  start: 2023-10-16
-  end: 2023-10-20
-  sub: XR
-  note: Mandatory abstract deadline on June 5, 2023.
-
-- title: ISMAR (Journal Papers)
-  year: 2024
-  id: ismar24j
-  link: https://ieeeismar.org/cfp/
-  deadline: '2024-03-14 23:59:59'
-  abstract_deadline: '2024-03-07 23:59:59'
-  timezone: UTC-12
-  place: Greater Seattle Area, USA
-  date: October, 21-25, 2024
-  start: 2024-10-21
-  end: 2024-10-25
-  sub: XR
-
-- title: ISMAR (Conference Papers)
-  year: 2024
-  id: ismar24c
-  link: https://ieeeismar.org/cfp/
-  deadline: '2024-05-08 23:59:59'
-  abstract_deadline: '2024-05-03 23:59:59'
-  timezone: UTC-12
-  place: Greater Seattle Area, USA
-  date: October, 21-25, 2024
-  start: 2024-10-21
-  end: 2024-10-25
-  sub: XR
-
-- title: ISMAR
-  year: 2025
-  id: ismar25
-  link: https://www.ieeeismar.net/2025/contribute/papers/
-  deadline: '2025-04-11 23:59:59'
-  abstract_deadline: '2025-04-04 23:59:59'
-  timezone: UTC-12
-  place: Daejeon, South Korea
-  date: October, 8-12, 2025
-  start: 2025-10-08
-  end: 2025-10-12
-  sub: XR
-
-- title: ISMAR
-  year: 2026
-  id: ismar26
-  link: https://www.ieeeismar.net/2026/call-for-papers/
-  deadline: '2026-03-16 23:59:59'
-  abstract_deadline: '2026-03-09 23:59:59'
-  timezone: UTC-12
-  place: Bari, Italy
-  date: October, 5-9, 2026
-  start: 2026-10-05
-  end: 2026-10-09
-  sub: XR
-
-- title: ISS (February round)
-  year: 2023
-  id: iss23a
-  link: https://iss2023.acm.org/track/iss-2023-papers
-  deadline: '2023-02-15 23:59:59'
-  timezone: UTC-12
-  place: Pittsburgh, PA, USA
-  date: November, 5-8, 2023
-  start: 2023-11-05
-  end: 2023-11-08
-  sub: HCI
-
-- title: ISS (July round)
-  year: 2023
-  id: iss23b
-  link: https://iss2023.acm.org/track/iss-2023-papers
-  deadline: '2023-07-01 23:59:59'
-  timezone: UTC-12
-  place: Pittsburgh, PA, USA
-  date: November, 5-8, 2023
-  start: 2023-11-05
-  end: 2023-11-08
-  sub: HCI
-
-- title: ISS (February round)
-  year: 2024
-  id: iss24a
-  link: https://iss2024.acm.org/track/iss-2024-papers
-  deadline: '2024-02-22 23:59:59'
-  timezone: UTC-12
-  place: Seattle, United States
-  date: October, 27-30, 2024
-  start: 2024-10-27
-  end: 2024-10-30
-  sub: HCI
-
-- title: ISS (First round)
-  year: 2025
-  id: iss25a
-  link: https://iss.acm.org/2025/
-  deadline: '2025-03-14 23:59:59'
-  timezone: UTC-12
-  place: N/A (conference postponed to 2026)
-  sub: HCI
-
-- title: ISS (Second round)
-  year: 2025
-  id: iss25b
-  link: https://iss.acm.org/2025/authors/papers/
-  deadline: '2025-07-25 23:59:59'
-  timezone: UTC-12
-  place: N/A (conference postponed to 2026)
-  sub: HCI
-
-- title: ISS (Summer round)
-  year: 2026
-  id: iss26b
-  link: https://iss.acm.org/2026/authors/papers/
-  deadline: '2026-07-22 23:59:59'
-  timezone: UTC-12
-  place: Turin, Italy
-  date: November, 23-26, 2026
-  start: 2026-11-23
-  end: 2026-11-26
-  sub: HCI
-
-- title: ISWC Notes & Brief
-  year: 2023
-  id: iswc23
-  link: https://www.ubicomp.org/ubicomp-iswc-2023/cfp/iswc_notes_briefs/
-  deadline: '2023-05-26 23:59:59'
-  timezone: UTC-12
-  place: Cancun, Mexico
-  date: October, 8-12, 2023
-  start: 2023-10-08
-  end: 2023-10-12
-  sub: HCI
-
-- title: ISWC Notes & Brief
-  year: 2024
-  id: iswc24
-  link: https://www.ubicomp.org/ubicomp-iswc-2024/authors/
-  deadline: '2024-05-17 23:59:59'
-  timezone: UTC-12
-  place: Melbourne, Australia
-  date: October, 5-9, 2024
-  start: 2024-10-05
-  end: 2024-10-09
-  sub: HCI
-
-- title: ISWC Notes & Brief
-  year: 2025
-  id: iswc25
-  link: https://www.ubicomp.org/ubicomp-iswc-2025/authors/
-  deadline: '2025-05-18 23:59:59'
-  timezone: UTC-12
-  place: Espoo, Finland
-  date: October, 14-16, 2025
-  start: 2025-10-14
-  end: 2025-10-16
-  sub: HCI
-
-- title: ISWC Notes & Brief
-  year: 2026
-  id: iswc26
-  link: https://www.ubicomp.org/ubicomp-iswc-2026/authors/
-  deadline: '2026-05-17 23:59:59'
-  timezone: UTC-12
-  place: Shanghai, China
-  date: October, 13-15, 2026
-  start: 2026-10-13
-  end: 2026-10-15
-  sub: HCI
-
-- title: IUI
-  year: 2027
-  id: iui27
-  link: https://iui.acm.org/2027/call-for-papers/
-  deadline: '2026-08-20 23:59:59'
-  abstract_deadline: '2026-08-13 23:59:59'
-  timezone: UTC-12
-  place: Helsinki, Finland
-  date: February 8-11, 2027
-  start: 2027-02-08
-  end: 2027-02-11
-  sub: HCI
-
-- title: IUI
-  year: 2026
-  id: iui26
-  link: https://iui.hosting.acm.org/2026/call-for-papers/
-  deadline: '2025-10-10 23:59:59'
-  abstract_deadline: '2025-10-03 23:59:59'
-  timezone: UTC-12
-  place: Limassol, Cyprus
-  date: July 13-16, 2026
-  start: 2026-07-13
-  end: 2026-07-16
-  sub: HCI
-
-- title: IUI
-  year: 2025
-  id: iui25
-  link: https://iui.acm.org/2025/call_for_papers.html
-  deadline: '2024-10-09 23:59:59'
-  abstract_deadline: '2024-10-02 23:59:59'
-  timezone: UTC-12
-  place: Cagliari, Italy
-  date: March 24-27, 2025
-  start: 2025-03-24
-  end: 2025-03-27
-  sub: HCI
-
-- title: IUI
-  year: 2024
-  id: iui24
-  link: https://iui.acm.org/2024/call_for_papers.html
-  deadline: '2023-10-09 23:59:59'
-  abstract_deadline: '2023-10-02 23:59:59'
-  timezone: UTC-12
-  place: Greenville, South Carolina, USA
-  date: March, 18-21, 2024
-  start: 2024-03-18
-  end: 2024-03-21
-  sub: HCI
-
-- title: MobileHCI
-  year: 2023
-  id: mobilehci23
-  link: https://mobilehci.acm.org/2023/index.php
-  deadline: '2023-01-20 23:59:59'
-  timezone: UTC-12
-  place: Athens, Greece
-  date: September, 26-29, 2023
-  start: 2023-09-26
-  end: 2023-09-29
-  sub: HCI
-
-- title: MobileHCI
-  year: 2024
-  id: mobilehci24
-  link: https://mobilehci.acm.org/2024/callforpapers.php
-  deadline: '2024-02-21 23:59:59'
-  abstract_deadline: '2024-02-14 23:59:59'
-  timezone: UTC-12
-  place: Melbourne, Australia
-  date: September 30 - October 3, 2024
-  start: 2024-09-30
-  end: 2024-10-03
-  sub: HCI
-
-- title: MobileHCI
-  year: 2025
-  id: mobilehci25
-  link: https://mobilehci.acm.org/2025/callforpapers.php
-  deadline: '2025-02-06 23:59:59'
-  abstract_deadline: '2025-01-30 23:59:59'
-  timezone: UTC-12
-  place: Sharm El-Sheikh, Egypt
-  date: September, 22-26, 2025
-  start: 2025-09-22
-  end: 2025-09-26
-  sub: HCI
-
-- title: MobileHCI
-  year: 2026
-  id: mobilehci26
-  link: https://mobilehci.acm.org/2026/submit/papers.html
-  deadline: '2026-01-29 23:59:59'
-  abstract_deadline: '2026-01-22 23:59:59'
-  timezone: UTC-12
-  place: Swansea, Wales, United Kingdom
-  date: August 31 - September 03, 2026
-  start: 2026-08-31
-  end: 2026-09-03
-  sub: HCI
-
-- title: NIME
-  year: 2026
-  id: nime26
-  full_name: International Conference on New Interfaces for Musical Expression
-  link: https://nime2026.org/
-  deadline: '2026-02-12 23:59:59'
-  abstract_deadline: '2026-02-05 23:59:59'
-  timezone: UTC-12
-  place: London, UK
-  date: June, 23-26, 2026
-  start: 2026-06-23
-  end: 2026-06-26
-  sub: ['HCI', 'ART']
-  note: NIME 2026 abstract deadline Feb 5, 2026 AoE.
-
-- title: NordiCHI
-  year: 2026
-  id: nordichi26
-  full_name: Nordic Conference on Human-Computer Interaction
-  link: https://sites.uwasa.fi/nordichi2026/
-  deadline: 2026-04-23 23:59
-  abstract_deadline: 2026-04-16 23:59
-  timezone: UTC-12
-  place: Vaasa, Finland
-  date: October, 3-7, 2026
-  start: 2026-10-03
-  end: 2026-10-07
-  sub: HCI
-
-- title: IEEE PacificVis
-  year: 2024
-  id: pacificvis24
-  full_name: IEEE Pacific Visualization Symposium
-  link: https://pacificvis.github.io/pvis2024/
-  deadline: '2023-11-22 23:59:59'
-  abstract_deadline: '2023-11-16 23:59:59'
-  timezone: UTC-12
-  place: Tokyo, Japan
-  date: April, 23-26, 2024
-  start: 2024-04-23
-  end: 2024-04-26
-  sub: VIS
-  note: Conference paper track
-
-- title: IEEE PacificVis
-  year: 2025
-  id: pacificvis25
-  full_name: IEEE Pacific Visualization Symposium
-  link: https://pacificvis2025.github.io/pages/Common-call-for-papers.html
-  deadline: '2024-11-20 23:59:59'
-  abstract_deadline: '2024-11-13 23:59:59'
-  timezone: UTC-12
-  place: Taipei, Taiwan
-  date: April, 22-25, 2025
-  start: 2025-04-22
-  end: 2025-04-25
-  sub: VIS
-  note: Conference paper track
-
-- title: IEEE PacificVis
-  year: 2026
-  id: pacificvis26
-  full_name: IEEE Pacific Visualization Symposium
-  link: https://pacificvis2026.github.io/common-call-for-papers.html
-  deadline: '2025-09-07 23:59:59'
-  abstract_deadline: '2025-09-01 23:59:59'
-  timezone: UTC-12
-  place: Sydney, Australia
-  date: April, 20-23, 2026
-  start: 2026-04-20
-  end: 2026-04-23
-  sub: VIS
-  note: Conference paper track
-
-- title: ACM SIGGRAPH
-  year: 2026
-  id: siggraph26
-  full_name: 'ACM SIGGRAPH'
-  link: https://s2026.siggraph.org/
-  deadline: '2026-01-22 10:00:00'
-  abstract_deadline: '2026-01-15 10:00:00'
-  timezone: UTC-12
-  place: Los Angeles, CA, USA
-  date: July, 19-23, 2026
-  start: 2026-07-19
-  end: 2026-07-23
-  sub: ['HCI', 'GM']
-
-- title: ACM SIGGRAPH Asia
-  year: 2025
-  id: siggraphasia25
-  full_name: 'ACM SIGGRAPH Asia'
-  link: https://asia.siggraph.org/2025/submissions/technical-papers/
-  deadline: '2025-05-23 23:59:59'
-  abstract_deadline: '2025-05-16 23:59:59'
-  timezone: UTC-12
-  place: Hong Kong
-  date: December, 15-18, 2025
-  start: 2025-12-15
-  end: 2025-12-18
-  sub: ['HCI', 'GM']
-  note: 'Technical Papers form deadline May 16, 2025.'
-
-- title: ACM SIGGRAPH Asia
-  year: 2026
-  id: siggraphasia26
-  full_name: 'ACM SIGGRAPH Asia'
-  link: https://asia.siggraph.org/2026/submissions/technical-papers/
-  abstract_deadline: '2026-05-05 23:59:59'
-  deadline: '2026-05-12 23:59:59'
-  timezone: UTC-12
-  place: Kuala Lumpur, Malaysia
-  date: December, 1-4, 2026
-  start: 2026-12-1
-  end: 2026-12-4
-  sub: ['HCI', 'GM']
-
-- title: SUI
-  year: 2023
-  id: sui23
-  link: https://sui.acm.org/2023/papers
-  deadline: '2023-06-23 23:59:59'
-  timezone: UTC-12
-  place: Sydney, Australia
-  date: October, 13-15, 2023
-  start: 2023-10-13
-  end: 2023-10-15
-  sub: HCI
-
-- title: SUI
-  year: 2024
-  id: sui24
-  link: https://sui.acm.org/2024/papers
-  deadline: '2024-06-10 23:59:59'
-  timezone: UTC-12
-  place: Trier, Germany
-  date: October, 7-8, 2024
-  start: 2024-10-07
-  end: 2024-10-08
-  sub: HCI
-
-- title: SUI
-  year: 2025
-  id: sui25
-  link: https://sui.acm.org/2025/call-for-participation/
-  deadline: '2025-06-10 23:59:59'
-  timezone: UTC-12
-  place: Montreal, Canada
-  date: November, 10-11, 2025
-  start: 2025-11-10
-  end: 2025-11-11
-  sub: HCI
-
-- title: SUI
-  year: 2026
-  id: sui26
-  link: https://sui.acm.org/2026/call-for-papers/
-  deadline: '2026-05-29 23:59:59'
-  timezone: UTC-12
-  place: Bari, Italy
-  date: October, 10-11, 2026
-  start: 2026-10-10
-  end: 2026-10-11
-  sub: HCI
-
-- title: TEI
-  year: 2023
-  id: tei23
-  link: https://tei.acm.org/2023/participate/paper/
-  deadline: '2022-08-05 23:59:59'
-  timezone: UTC-12
-  place: Warsaw, Poland
-  date: February, 26 - March 1, 2023
-  start: 2023-02-26
-  end: 2023-03-01
-  sub: HCI
-
-- title: TEI
-  year: 2024
-  id: tei24
-  link: https://tei.acm.org/2024/index.php/call-for-papers/
-  deadline: '2023-07-25 23:59:59'
-  timezone: UTC-12
-  place: Cork, Ireland
-  date: February, 11-14, 2024
-  start: 2024-02-11
-  end: 2024-02-14
-  sub: HCI
-
-- title: TEI
-  year: 2025
-  id: tei25
-  link: https://tei.acm.org/2025/participate/papers
-  deadline: '2024-08-01 23:59:59'
-  abstract_deadline: '2024-07-25 23:59:59'
-  timezone: UTC-12
-  place: Bordeaux, France
-  date: March, 4-7, 2025
-  start: 2025-03-04
-  end: 2025-03-07
-  sub: HCI
-
-- title: TEI
-  year: 2026
-  id: tei26
-  link: https://tei.acm.org/2026/participate/papers/
-  deadline: '2025-08-07 23:59:59'
-  abstract_deadline: '2025-07-31 23:59:59'
-  timezone: UTC-12
-  place: Chicago, Illinois, USA
-  date: March, 8-11, 2026
-  start: 2026-03-08
-  end: 2026-03-11
-  sub: HCI
-
-- title: UIST
-  year: 2023
-  id: uist23
-  link: https://uist.acm.org/2023/
-  deadline: '2023-04-05 17:00:00'
-  timezone: UTC-8
-  place: California Bay Area, USA
-  date: October 29 - November 01, 2023
-  start: 2023-10-29
-  end: 2023-11-01
-  sub: HCI
-  note: Mandatory abstract deadline on March 30, 2023.
-
-- title: UIST
-  year: 2024
-  id: uist24
-  link: https://uist.acm.org/2024/
-  deadline: '2024-04-03 17:00:00'
-  abstract_deadline: '2024-03-27 17:00:00'
-  timezone: UTC-8
-  place: Pittsburgh, USA
-  date: October 13-16, 2024
-  start: 2024-10-13
-  end: 2024-10-16
-  sub: HCI
-
-- title: UIST
-  year: 2025
-  id: uist25
-  link: https://uist.acm.org/2025/
-  deadline: '2025-04-09 23:59:59'
-  abstract_deadline: '2025-04-02 23:59:59'
-  timezone: UTC-12
-  place: Busan, Korea
-  date: September 28th - October 1st, 2025
-  start: 2025-09-28
-  end: 2025-10-01
-  sub: HCI
-
-- title: UIST
-  year: 2026
-  id: uist26
-  link: https://uist.acm.org/2026
-  deadline: '2026-03-31 23:59:59'
-  abstract_deadline: '2026-03-24 23:59:59'
-  timezone: UTC-12
-  place: Detroit, USA
-  date: November 2nd - November 5th, 2026
-  start: 2026-11-02
-  end: 2026-11-05
-  sub: HCI
-  note: Deadlines are all tentative as of November 2025.
-
-- title: VIS
-  year: 2023
-  id: vis23
-  link: https://ieeevis.org/year/2023
-  deadline: '2023-03-31 23:59:59'
-  timezone: UTC-12
-  place: Melbourne, Australia
-  date: October, 22-27, 2023
-  start: 2023-10-22
-  end: 2023-10-27
-  sub: VIS
-  note: Mandatory abstract deadline on March 21, 2023.
-
-- title: VIS
-  year: 2024
-  id: vis24
-  link: https://ieeevis.org/year/2024/welcome
-  deadline: '2024-03-31 23:59:59'
-  timezone: UTC-12
-  place: St. Pete Beach, Florida
-  date: October, 13-18, 2024
-  start: 2024-10-13
-  end: 2024-10-18
-  sub: VIS
-  note: Mandatory abstract deadline for _full papers_ on March 21, 2024.
-
-- title: VIS
-  year: 2024
-  id: vis24Short
-  link: https://ieeevis.org/year/2024/welcome
-  deadline: '2024-04-30 23:59:59'
-  timezone: UTC-12
-  place: St. Pete Beach, Florida
-  date: October, 13-18, 2024
-  start: 2024-10-13
-  end: 2024-10-18
-  sub: VIS
-  note: Short papers deadeline, no abstract deadline.
-
-- title: VIS
-  year: 2025
-  id: vis25
-  link: https://ieeevis.org/year/2025/welcome
-  deadline: '2025-03-31 23:59:59'
-  abstract_deadline: '2025-03-21 23:59:59'
-  timezone: UTC-12
-  place: Vienna, Austria
-  date: November, 2-7, 2025
-  start: 2025-11-02
-  end: 2025-11-07
-  sub: VIS
-
-- title: VL/HCC
-  year: 2023
-  id: vlhcc23
-  link: https://conf.researchr.org/home/vlhcc-2023
-  deadline: '2023-04-28 23:59:59'
-  abstract_deadline: '2023-04-21 23:59:59'
-  timezone: UTC-12
-  place: Washington, DC, USA
-  date: October, 2-6, 2023
-  start: 2023-10-02
-  end: 2023-10-06
-  sub: HCI
-
-- title: VL/HCC
-  year: 2024
-  id: vlhcc24
-  link: https://conf.researchr.org/home/vlhcc-2024
-  deadline: '2024-04-26 23:59:59'
-  abstract_deadline: '2024-04-19 23:59:59'
-  timezone: UTC-12
-  place: Liverpool, UK
-  date: September, 2-6, 2024
-  start: 2024-09-02
-  end: 2024-09-06
-  sub: HCI
-
-- title: VL/HCC
-  year: 2025
-  id: vlhcc25
-  link: https://conf.researchr.org/track/vlhcc-2025/vlhcc-2025-research-papers
-  deadline: '2025-05-16 23:59:59'
-  abstract_deadline: '2025-05-09 23:59:59'
-  timezone: UTC-12
-  place: Raleigh, North Carolina, USA
-  date: October, 6-10, 2025
-  start: 2025-10-06
-  end: 2025-10-10
-  sub: HCI
-
 - title: IEEE VR
   year: 2023
-  id: ieeevr2023
-  link: http://ieeevr.org
+  id: ieeevr23
+  full_name: IEEE Conference on Virtual Reality and 3D User Interfaces
+  link: https://ieeevr.org/2023/
   deadline: '2022-10-14 23:59:59'
+  abstract_deadline: '2022-10-07 23:59:59'
   timezone: UTC-12
   place: Shanghai, China
-  date: March, 25-29, 2023
-  start: 2023-03-25
-  end: 2023-03-29
-  hindex: 38
-  sub: XR
-  note: Mandatory abstract deadline on October 7, 2022.
+  date: March 25-29, 2023
+  start: '2023-03-25'
+  end: '2023-03-29'
+  sub:
+    - XR
 
 - title: IEEE VR
   year: 2024
-  id: ieeevr2024
+  id: ieeevr24
   full_name: IEEE Conference on Virtual Reality and 3D User Interfaces
   link: https://ieeevr.org/2024/
   deadline: '2023-10-04 23:59:59'
   abstract_deadline: '2023-09-27 23:59:59'
   timezone: UTC-12
   place: Orlando, Florida, USA
-  date: March, 16-20, 2024
-  start: 2024-03-16
-  end: 2024-03-20
-  sub: XR
-  note: Full paper track (Conference and TVCG Journal)
+  date: March 16-20, 2024
+  start: '2024-03-16'
+  end: '2024-03-20'
+  sub:
+    - XR
 
 - title: IEEE VR
   year: 2025
-  id: ieeevr2025
+  id: ieeevr25
   full_name: IEEE Conference on Virtual Reality and 3D User Interfaces
   link: https://ieeevr.org/2025/contribute/papers/
   deadline: '2024-09-18 23:59:59'
   abstract_deadline: '2024-09-11 23:59:59'
   timezone: UTC-12
   place: Saint-Malo, France
-  date: March, 8-12, 2025
-  start: 2025-03-08
-  end: 2025-03-12
-  sub: XR
+  date: March 8-12, 2025
+  start: '2025-03-08'
+  end: '2025-03-12'
+  sub:
+    - XR
 
 - title: IEEE VR
   year: 2026
-  id: ieeevr2026
+  id: ieeevr26
   full_name: IEEE Conference on Virtual Reality and 3D User Interfaces
   link: https://ieeevr.org/2026/contribute/papers/
   deadline: '2025-09-12 23:59:59'
   abstract_deadline: '2025-09-05 23:59:59'
   timezone: UTC-12
-  place: Daegu, Korea
-  date: March, 21-25, 2026
-  start: 2026-03-21
-  end: 2026-03-25
-  sub: XR
+  place: Daegu, South Korea
+  date: March 21-25, 2026
+  start: '2026-03-21'
+  end: '2026-03-25'
+  sub:
+    - XR
 
 - title: IEEE VR
   year: 2027
-  id: ieeevr2027
+  id: ieeevr27
   full_name: IEEE Conference on Virtual Reality and 3D User Interfaces
-  link: https://ieeevr.org/2027/
+  link: https://ieeevr.org/2027/contribute/papers/
   deadline: '2026-08-31 23:59:59'
   abstract_deadline: '2026-08-24 23:59:59'
   timezone: UTC-12
   place: Melbourne, Australia
-  date: February, 27 - March, 3, 2027
-  start: 2027-02-27
-  end: 2027-03-03
-  sub: XR
-  note: Full CFP link not yet active
+  date: February 27-March 3, 2027
+  start: '2027-02-27'
+  end: '2027-03-03'
+  sub:
+    - XR
+
+- title: ISMAR (Journal Papers)
+  year: 2023
+  id: ismar23j
+  full_name: IEEE International Symposium on Mixed and Augmented Reality — Journal Paper Track
+  link: https://ismar23.org/call-for-journal-papers/
+  deadline: '2023-03-25 23:59:59'
+  abstract_deadline: '2023-03-19 23:59:59'
+  timezone: UTC-12
+  place: Sydney, Australia
+  date: October 16-20, 2023
+  start: '2023-10-16'
+  end: '2023-10-20'
+  sub:
+    - XR
+
+- title: ISMAR (Conference Papers)
+  year: 2023
+  id: ismar23c
+  full_name: IEEE International Symposium on Mixed and Augmented Reality — Conference Paper Track
+  link: https://ismar23.org/call-for-conference-papers/
+  deadline: '2023-06-12 23:59:59'
+  abstract_deadline: '2023-06-05 23:59:59'
+  timezone: UTC-12
+  place: Sydney, Australia
+  date: October 16-20, 2023
+  start: '2023-10-16'
+  end: '2023-10-20'
+  sub:
+    - XR
+
+- title: ISMAR (Journal Papers)
+  year: 2024
+  id: ismar24j
+  full_name: IEEE International Symposium on Mixed and Augmented Reality — Journal Paper Track
+  link: https://ieeeismar.org/cfp/
+  deadline: '2024-03-14 23:59:59'
+  abstract_deadline: '2024-03-07 23:59:59'
+  timezone: UTC-12
+  place: Greater Seattle Area, USA
+  date: October 21-25, 2024
+  start: '2024-10-21'
+  end: '2024-10-25'
+  sub:
+    - XR
+
+- title: ISMAR (Conference Papers)
+  year: 2024
+  id: ismar24c
+  full_name: IEEE International Symposium on Mixed and Augmented Reality — Conference Paper Track
+  link: https://ieeeismar.org/cfp/
+  deadline: '2024-05-08 23:59:59'
+  abstract_deadline: '2024-05-03 23:59:59'
+  timezone: UTC-12
+  place: Greater Seattle Area, USA
+  date: October 21-25, 2024
+  start: '2024-10-21'
+  end: '2024-10-25'
+  sub:
+    - XR
+
+- title: ISMAR
+  year: 2025
+  id: ismar25
+  full_name: IEEE International Symposium on Mixed and Augmented Reality
+  link: https://www.ieeeismar.net/2025/contribute/papers/
+  deadline: '2025-04-11 23:59:59'
+  abstract_deadline: '2025-04-04 23:59:59'
+  timezone: UTC-12
+  place: Daejeon, South Korea
+  date: October 8-12, 2025
+  start: '2025-10-08'
+  end: '2025-10-12'
+  sub:
+    - XR
+
+- title: ISMAR
+  year: 2026
+  id: ismar26
+  full_name: IEEE International Symposium on Mixed and Augmented Reality
+  link: https://www.ieeeismar.net/2026/call-for-papers/
+  deadline: '2026-03-16 23:59:59'
+  abstract_deadline: '2026-03-09 23:59:59'
+  timezone: UTC-12
+  place: Bari, Italy
+  date: October 5-9, 2026
+  start: '2026-10-05'
+  end: '2026-10-09'
+  sub:
+    - XR
 
 - title: VRST
   year: 2023
   id: vrst23
+  full_name: ACM Symposium on Virtual Reality Software and Technology
   link: https://vrst.acm.org/vrst2023/submissions/
   deadline: '2023-06-19 23:59:59'
+  abstract_deadline: '2023-06-12 23:59:59'
   timezone: UTC-12
   place: Christchurch, New Zealand
-  date: October, 9-11, 2023
-  start: 2023-10-09
-  end: 2023-10-11
-  sub: XR
-  note: Mandatory abstract deadline on June 12, 2023.
+  date: October 9-11, 2023
+  start: '2023-10-09'
+  end: '2023-10-11'
+  sub:
+    - XR
 
 - title: VRST
   year: 2024
   id: vrst24
+  full_name: ACM Symposium on Virtual Reality Software and Technology
   link: https://vrst.acm.org/vrst2024/
   deadline: '2024-06-17 23:59:59'
   abstract_deadline: '2024-06-10 23:59:59'
   timezone: UTC-12
   place: Trier, Germany
-  date: October, 9-11, 2024
-  start: 2024-10-09
-  end: 2024-10-11
-  sub: XR
+  date: October 9-11, 2024
+  start: '2024-10-09'
+  end: '2024-10-11'
+  sub:
+    - XR
 
 - title: VRST
   year: 2025
   id: vrst25
+  full_name: ACM Symposium on Virtual Reality Software and Technology
   link: https://vrst.acm.org/vrst2025/
   deadline: '2025-07-14 23:59:59'
   abstract_deadline: '2025-07-07 23:59:59'
   timezone: UTC-12
   place: Montreal, Canada
-  date: November, 12-14, 2025
-  start: 2025-11-12
-  end: 2025-11-14
-  sub: XR
+  date: November 12-14, 2025
+  start: '2025-11-12'
+  end: '2025-11-14'
+  sub:
+    - XR
 
 - title: VRST
   year: 2026
   id: vrst26
+  full_name: ACM Symposium on Virtual Reality Software and Technology
   link: https://vrst.acm.org/vrst2026/
-  abstract_deadline: '2026-06-17 23:59:59'
   deadline: '2026-06-24 23:59:59'
+  abstract_deadline: '2026-06-17 23:59:59'
   timezone: UTC-12
   place: Sendai, Japan
-  date: November, 16-18, 2026
-  start: 2026-11-16
-  end: 2026-11-18
-  sub: XR
+  date: November 16-18, 2026
+  start: '2026-11-16'
+  end: '2026-11-18'
+  sub:
+    - XR
 
-- title: World Haptics
+- title: SUI
   year: 2023
-  id: wh23
-  link: https://2023.worldhaptics.org
-  deadline: '2023-02-08 23:59:59'
-  timezone: UTC-8
-  place: Delft, Netherlands
-  date: July, 10-13, 2023
-  start: 2023-07-10
-  end: 2023-07-13
-  sub: HAP
+  id: sui23
+  full_name: ACM Symposium on Spatial User Interaction
+  link: https://sui.acm.org/2023/papers
+  deadline: '2023-06-23 23:59:59'
+  timezone: UTC-12
+  place: Sydney, Australia
+  date: October 13-15, 2023
+  start: '2023-10-13'
+  end: '2023-10-15'
+  sub:
+    - XR
 
-- title: World Haptics
+- title: SUI
+  year: 2024
+  id: sui24
+  full_name: ACM Symposium on Spatial User Interaction
+  link: https://sui.acm.org/2024/papers
+  deadline: '2024-06-10 23:59:59'
+  timezone: UTC-12
+  place: Trier, Germany
+  date: October 7-8, 2024
+  start: '2024-10-07'
+  end: '2024-10-08'
+  sub:
+    - XR
+
+- title: SUI
   year: 2025
-  id: wh25
-  link: https://2025.worldhaptics.org
-  deadline: '2025-01-31 23:59:59'
-  timezone: UTC-8
-  place: Suwon, Korea
-  date: July, 8-11, 2025
-  start: 2025-07-08
-  end: 2025-07-11
-  sub: HAP
+  id: sui25
+  full_name: ACM Symposium on Spatial User Interaction
+  link: https://sui.acm.org/2025/call-for-participation/
+  deadline: '2025-06-10 23:59:59'
+  timezone: UTC-12
+  place: Montreal, Canada
+  date: November 10-11, 2025
+  start: '2025-11-10'
+  end: '2025-11-11'
+  sub:
+    - XR
+
+- title: SUI
+  year: 2026
+  id: sui26
+  full_name: ACM Symposium on Spatial User Interaction
+  link: https://sui.acm.org/2026/call-for-papers/
+  deadline: '2026-05-29 23:59:59'
+  timezone: UTC-12
+  place: Bari, Italy
+  date: October 10-11, 2026
+  start: '2026-10-10'
+  end: '2026-10-11'
+  sub:
+    - XR
+
+- title: CHI
+  year: 2027
+  id: chi27
+  full_name: ACM CHI Conference on Human Factors in Computing Systems
+  link: https://chi2027.acm.org/authors/papers/
+  deadline: '2026-09-10 23:59:59'
+  timezone: UTC-12
+  place: Pittsburgh, Pennsylvania, USA
+  date: May 10-14, 2027
+  start: '2027-05-10'
+  end: '2027-05-14'
+  sub:
+    - XR
+    - HRI
+  note: Curated crossover venue; CHI's overall scope is broader than XR and HRI. There is no abstract deadline for papers.
+
+- title: SIGGRAPH
+  year: 2026
+  id: siggraph26
+  full_name: ACM SIGGRAPH Conference on Computer Graphics and Interactive Techniques
+  link: https://s2026.siggraph.org/program/technical-papers/
+  deadline: '2026-01-22 22:00:00'
+  abstract_deadline: '2026-01-15 22:00:00'
+  timezone: UTC
+  place: Los Angeles, California, USA
+  date: July 19-23, 2026
+  start: '2026-07-19'
+  end: '2026-07-23'
+  sub:
+    - XR
+  note: Curated XR crossover venue; SIGGRAPH's overall scope is broader than XR.
+
+- title: SIGGRAPH
+  year: 2027
+  id: siggraph27
+  full_name: ACM SIGGRAPH Conference on Computer Graphics and Interactive Techniques
+  link: https://blog.siggraph.org/2026/01/hope-inspiration-and-motivation-diana-arellanos-visions-for-siggraph-2028.html/
+  deadline: TBA
+  place: Anaheim, California, USA
+  date: August 8-12, 2027
+  start: '2027-08-08'
+  end: '2027-08-12'
+  sub:
+    - XR
+  note: Curated XR crossover venue; the 2027 technical-papers deadline has not been announced.
+
+- title: SIGGRAPH Asia
+  year: 2026
+  id: siggraphasia26
+  full_name: ACM SIGGRAPH Asia Conference on Computer Graphics and Interactive Techniques
+  link: https://asia.siggraph.org/2026/submissions/technical-papers/
+  deadline: '2026-05-12 23:59:59'
+  abstract_deadline: '2026-05-05 23:59:59'
+  timezone: UTC-12
+  place: Kuala Lumpur, Malaysia
+  date: December 1-4, 2026
+  start: '2026-12-01'
+  end: '2026-12-04'
+  sub:
+    - XR
+  note: Curated XR crossover venue; SIGGRAPH Asia's overall scope is broader than XR.
+
+- title: UIST
+  year: 2026
+  id: uist26
+  full_name: ACM Symposium on User Interface Software and Technology
+  link: https://uist.acm.org/2026/cfp/
+  deadline: '2026-03-31 23:59:59'
+  abstract_deadline: '2026-03-24 23:59:59'
+  timezone: UTC-12
+  place: Detroit, Michigan, USA
+  date: November 2-5, 2026
+  start: '2026-11-02'
+  end: '2026-11-05'
+  sub:
+    - XR
+  note: Curated XR crossover venue; UIST explicitly includes virtual and augmented reality in its scope.
+
+- title: TEI
+  year: 2027
+  id: tei27
+  full_name: ACM International Conference on Tangible, Embedded and Embodied Interaction
+  link: https://tei.acm.org/2027/
+  deadline: '2026-08-06 23:59:59'
+  timezone: UTC-12
+  place: Lisbon, Portugal
+  date: January 24-27, 2027
+  start: '2027-01-24'
+  end: '2027-01-27'
+  sub:
+    - XR
+  note: Curated XR crossover venue focused on tangible, spatial and embodied interaction.
+
+- title: OzCHI (Long Papers)
+  year: 2026
+  id: ozchi26
+  full_name: Australian Conference on Human-Computer Interaction — Long Papers
+  link: https://www.ozchi.org/2026/papers
+  deadline: '2026-06-12 23:59:59'
+  timezone: UTC-12
+  place: Adelaide, South Australia, Australia
+  date: November 21-25, 2026
+  start: '2026-11-21'
+  end: '2026-11-25'
+  sub:
+    - XR
+    - HRI
+  note: Curated Australasian crossover venue; OzCHI's overall scope is broader than XR and HRI. The long-paper deadline was extended from June 2 to June 12, 2026.
+
+- title: OzCHI (Late-Breaking Work)
+  year: 2026
+  id: ozchi26lbw
+  full_name: Australian Conference on Human-Computer Interaction — Late-Breaking Work
+  link: https://www.ozchi.org/2026/papers
+  deadline: '2026-08-04 23:59:59'
+  timezone: UTC-12
+  place: Adelaide, South Australia, Australia
+  date: November 21-25, 2026
+  start: '2026-11-21'
+  end: '2026-11-25'
+  sub:
+    - XR
+    - HRI
+  note: Curated Australasian crossover venue; accepted late-breaking work is published as a short paper in the ACM Digital Library.
+
+- title: HRI
+  year: 2023
+  id: hri23
+  full_name: ACM/IEEE International Conference on Human-Robot Interaction
+  link: https://humanrobotinteraction.org/2023/
+  deadline: '2022-10-03 23:59:59'
+  timezone: UTC-12
+  place: Stockholm, Sweden
+  date: March 13-16, 2023
+  start: '2023-03-13'
+  end: '2023-03-16'
+  sub:
+    - HRI
+    - ROB
+
+- title: HRI
+  year: 2024
+  id: hri24
+  full_name: ACM/IEEE International Conference on Human-Robot Interaction
+  link: https://humanrobotinteraction.org/2024/
+  deadline: '2023-09-29 23:59:59'
+  timezone: UTC-12
+  place: Boulder, Colorado, USA
+  date: March 11-15, 2024
+  start: '2024-03-11'
+  end: '2024-03-15'
+  sub:
+    - HRI
+    - ROB
+
+- title: HRI
+  year: 2025
+  id: hri25
+  full_name: ACM/IEEE International Conference on Human-Robot Interaction
+  link: https://humanrobotinteraction.org/2025/
+  deadline: '2024-10-01 23:59:59'
+  abstract_deadline: '2024-09-23 23:59:59'
+  timezone: UTC-12
+  place: Melbourne, Australia
+  date: March 3-6, 2025
+  start: '2025-03-03'
+  end: '2025-03-06'
+  sub:
+    - HRI
+    - ROB
+
+- title: HRI
+  year: 2026
+  id: hri26
+  full_name: ACM/IEEE International Conference on Human-Robot Interaction
+  link: https://humanrobotinteraction.org/2026/
+  deadline: '2025-09-30 23:59:59'
+  abstract_deadline: '2025-09-22 23:59:59'
+  timezone: UTC-12
+  place: Edinburgh, Scotland, UK
+  date: March 16-19, 2026
+  start: '2026-03-16'
+  end: '2026-03-19'
+  sub:
+    - HRI
+    - ROB
+
+- title: HRI
+  year: 2027
+  id: hri27
+  full_name: ACM/IEEE International Conference on Human-Robot Interaction
+  link: https://humanrobotinteraction.org/2027/
+  deadline: '2026-09-18 23:59:59'
+  abstract_deadline: '2026-09-11 23:59:59'
+  timezone: UTC-12
+  place: Santa Clara, California, USA
+  date: March 8-12, 2027
+  start: '2027-03-08'
+  end: '2027-03-12'
+  sub:
+    - HRI
+    - ROB
+
+- title: RO-MAN
+  year: 2026
+  id: roman26
+  full_name: IEEE International Conference on Robot and Human Interactive Communication
+  link: https://ro-man2026.org/papersubmission/
+  deadline: '2026-03-29 23:59:59'
+  timezone: America/Los_Angeles
+  place: Kitakyushu, Fukuoka, Japan
+  date: August 24-28, 2026
+  start: '2026-08-24'
+  end: '2026-08-28'
+  sub:
+    - HRI
+    - ROB
+
+- title: ICSR
+  year: 2026
+  id: icsr26
+  full_name: International Conference on Social Robotics
+  link: https://icsr2026.uk/dates/
+  deadline: '2026-03-15 23:59:59'
+  timezone: UTC-12
+  place: London, UK
+  date: July 1-4, 2026
+  start: '2026-07-01'
+  end: '2026-07-04'
+  sub:
+    - HRI
+    - ROB
+
+- title: HAI
+  year: 2026
+  id: hai26
+  full_name: International Conference on Human-Agent Interaction
+  link: https://hai-conference.net/hai2026/call-for-full-papers/
+  deadline: '2026-06-05 23:59:59'
+  timezone: UTC-12
+  place: Osaka, Japan
+  date: November 16-19, 2026
+  start: '2026-11-16'
+  end: '2026-11-19'
+  sub:
+    - HRI
+
+- title: ICRA
+  year: 2027
+  id: icra27
+  full_name: IEEE International Conference on Robotics and Automation
+  link: https://2027.ieee-icra.org/announcements/call-for-technical-papers/
+  deadline: '2026-09-15 23:59:59'
+  timezone: America/Los_Angeles
+  place: Seoul, South Korea
+  date: May 24-28, 2027
+  start: '2027-05-24'
+  end: '2027-05-28'
+  sub:
+    - ROB
+
+- title: ACRA
+  year: 2026
+  id: acra26
+  full_name: Australasian Conference on Robotics and Automation
+  link: https://researchprofiles.canberra.edu.au/en/activities/2026-australasian-conference-on-robotics-and-automation/
+  deadline: TBA
+  place: Canberra, Australian Capital Territory, Australia
+  date: November 30-December 2, 2026
+  start: '2026-11-30'
+  end: '2026-12-02'
+  sub:
+    - ROB
+  note: The organizer's official university listing confirms the event dates and location; an official submission deadline and time zone have not been published.
+
+- title: IROS
+  year: 2027
+  id: iros27
+  full_name: IEEE/RSJ International Conference on Intelligent Robots and Systems
+  link: https://www.ieee-ras.org/event/2027-ieee-rsj-international-conference-on-intelligent-robots-and-systems-iros-70525/
+  deadline: TBA
+  place: Florence, Italy
+  date: September 26-October 1, 2027
+  start: '2027-09-26'
+  end: '2027-10-01'
+  sub:
+    - ROB
+  note: IEEE RAS lists March 1, 2027; the submission time zone is not yet specified.
+
+- title: RSS
+  year: 2026
+  id: rss26
+  full_name: 'Robotics: Science and Systems'
+  link: https://roboticsconference.org/
+  deadline: '2026-01-30 23:59:59'
+  abstract_deadline: '2026-01-23 23:59:59'
+  timezone: UTC-12
+  place: Sydney, Australia
+  date: July 13-17, 2026
+  start: '2026-07-13'
+  end: '2026-07-17'
+  sub:
+    - ROB
+
+- title: CASE
+  year: 2027
+  id: case27
+  full_name: IEEE International Conference on Automation Science and Engineering
+  link: https://2027.ieeecase.org/
+  deadline: TBA
+  place: Linz, Austria
+  date: August 22-27, 2027
+  start: '2027-08-22'
+  end: '2027-08-27'
+  sub:
+    - ROB
+  note: IEEE RAS lists March 2, 2027; the submission time zone is not yet specified.
+
+- title: ROBIO
+  year: 2026
+  id: robio26
+  full_name: IEEE International Conference on Robotics and Biomimetics
+  link: https://www.robio2026.org/
+  deadline: TBA
+  place: Tengchong, China
+  date: December 16-20, 2026
+  start: '2026-12-16'
+  end: '2026-12-20'
+  sub:
+    - ROB
+  note: The official site lists August 1, 2026; the submission time zone is not specified.
+
+- title: Humanoids
+  year: 2026
+  id: humanoids26
+  full_name: IEEE-RAS International Conference on Humanoid Robots
+  link: https://2026.ieee-humanoids.org/call-for-papers
+  deadline: '2026-07-24 23:59:59'
+  timezone: UTC-12
+  place: Santa Clara, California, USA
+  date: December 6-9, 2026
+  start: '2026-12-06'
+  end: '2026-12-09'
+  sub:
+    - ROB
+
+- title: ICAR
+  year: 2025
+  id: icar25
+  full_name: IEEE International Conference on Advanced Robotics
+  link: https://icar2025.inaut.unsj.edu.ar/CFP.php
+  deadline: TBA
+  place: San Juan, Argentina
+  date: December 2-5, 2025
+  start: '2025-12-02'
+  end: '2025-12-05'
+  sub:
+    - ROB
+  note: The final deadline was August 17, 2025; the official page does not specify a time zone.
+
+- title: ARSO
+  year: 2027
+  id: arso27
+  full_name: IEEE International Conference on Advanced Robotics and its Social Impacts
+  link: https://ieee-arso.org/
+  deadline: TBA
+  place: Mountain View, California, USA
+  date: March 13-15, 2027
+  start: '2027-03-13'
+  end: '2027-03-15'
+  sub:
+    - HRI
+    - ROB
+  note: IEEE RAS lists December 1, 2026; the submission time zone is not yet specified.
+
+- title: RoboSoft
+  year: 2027
+  id: robosoft27
+  full_name: IEEE International Conference on Soft Robotics
+  link: https://www.ieee-ras.org/event/2027-ieee-10th-international-conference-on-soft-robotics-robosoft-72393/
+  deadline: TBA
+  place: Brisbane, Australia
+  date: April 5-9, 2027
+  start: '2027-04-05'
+  end: '2027-04-09'
+  sub:
+    - ROB
+
+- title: ISRR
+  year: 2026
+  id: isrr26
+  full_name: International Symposium of Robotics Research
+  link: https://isrr2026.su.domains/
+  deadline: TBA
+  place: Malacca, Malaysia
+  date: November 16-20, 2026
+  start: '2026-11-16'
+  end: '2026-11-20'
+  sub:
+    - ROB
+  note: The final deadline was May 31, 2026; the official page does not specify a time zone.
+
+- title: SSRR
+  year: 2026
+  id: ssrr26
+  full_name: IEEE International Symposium on Safety, Security, and Rescue Robotics
+  link: https://www.ssrr-ieee.org/contribute
+  deadline: TBA
+  place: Incheon, South Korea
+  date: November 2-4, 2026
+  start: '2026-11-02'
+  end: '2026-11-04'
+  sub:
+    - ROB
+  note: The final deadline was July 3, 2026; the official page does not specify a time zone.
+
+- title: CoRL
+  year: 2026
+  id: corl26
+  full_name: Conference on Robot Learning
+  link: https://www.corl.org/contributions
+  deadline: '2026-05-28 23:59:59'
+  abstract_deadline: '2026-05-25 23:59:59'
+  timezone: UTC-12
+  place: Austin, Texas, USA
+  date: November 9-12, 2026
+  start: '2026-11-09'
+  end: '2026-11-12'
+  sub:
+    - ROB
+  note: Workshops are November 9; the main conference is November 10-12.

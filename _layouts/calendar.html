@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+METHOD:PUBLISH
+VERSION:2.0
+PRODID:-//{{ site.domain }}//xr-hri-robotics-deadlines//EN
+X-PUBLISHED-TTL:PT1H
+{%- for conf in site.data.conferences -%}
+{% if conf.abstract_deadline and conf.abstract_deadline != "TBA" %}
+BEGIN:VEVENT
+SUMMARY:{{ conf.title }} {{ conf.year }} abstract deadline
+UID:{{ conf.id }}-abstract@{{ site.domain }}
+ORGANIZER:https://github.com/{{ site.github_username }}/{{ site.github_repo }}
+DTSTAMP:{{ site.time | date: "%Y%m%dT%H%M%SZ" }}
+{% if conf.timezone == "UTC-12" %}DTSTART;TZID=Etc/GMT+12:{{ conf.abstract_deadline | date: "%Y%m%dT%H%M%S" }}
+{% else %}DTSTART;TZID={{ conf.timezone }}:{{ conf.abstract_deadline | date: "%Y%m%dT%H%M%S" }}
+{% endif %}END:VEVENT
+{% endif %}
+{% if conf.deadline != "TBA" %}
+BEGIN:VEVENT
+SUMMARY:{{ conf.title }} {{ conf.year }} deadline
+UID:{{ conf.id }}@{{ site.domain }}
+ORGANIZER:https://github.com/{{ site.github_username }}/{{ site.github_repo }}
+DTSTAMP:{{ site.time | date: "%Y%m%dT%H%M%SZ" }}
+{% if conf.timezone == "UTC-12" %}DTSTART;TZID=Etc/GMT+12:{{ conf.deadline | date: "%Y%m%dT%H%M%S" }}
+{% else %}DTSTART;TZID={{ conf.timezone }}:{{ conf.deadline | date: "%Y%m%dT%H%M%S" }}
+{% endif %}END:VEVENT
+{% endif %}
+{%- endfor -%}
+END:VCALENDAR

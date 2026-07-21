@@ -85,7 +85,8 @@ function load_conference_list() {
   // Gather data
   var conf_list_all = [];
   {% for conf in site.data.conferences %}
-    // add deadlines in red
+    // Add announced deadlines in red. TBA records still appear as conference events.
+    {% if conf.deadline != "TBA" %}
     conf_list_all.push({
       id: "{{conf.id}}-deadline",
       abbreviation: "{{conf.id}}",
@@ -94,12 +95,13 @@ function load_conference_list() {
       location: "{{conf.place}}",
       date: "{{conf.date}}",
       hindex: "{{conf.hindex}}",
-      subject: "{{conf.sub}}",
+      subject: "{{ conf.sub | join: ',' }}",
       startDate: Date.parse("{{conf.deadline}}"),
       endDate: Date.parse("{{conf.deadline}}"),
     });
+    {% endif %}
 
-    {% if conf.abstract_deadline != "" %}
+    {% if conf.abstract_deadline and conf.abstract_deadline != "TBA" %}
     conf_list_all.push({
       id: "{{conf.id}}-abstract-deadline",
       abbreviation: "{{conf.id}}",
@@ -108,7 +110,7 @@ function load_conference_list() {
       location: "{{conf.place}}",
       date: "{{conf.date}}",
       hindex: "{{conf.hindex}}",
-      subject: "{{conf.sub}}",
+      subject: "{{ conf.sub | join: ',' }}",
       startDate: Date.parse("{{conf.abstract_deadline}}"),
       endDate: Date.parse("{{conf.abstract_deadline}}"),
     });
@@ -117,7 +119,7 @@ function load_conference_list() {
     // add Conferences in chosen color
     {% if conf.start != "" %}
       var color = "black";
-      {% assign conf_sub = conf.sub | split: ',' | first | strip %} // use first sub to choose color
+      {% assign conf_sub = conf.sub | first %} // use first sub to choose color
       {% for type in site.data.types %}
             {% if conf_sub == type.sub %}
                     color = "{{type.color}}";
@@ -131,7 +133,7 @@ function load_conference_list() {
         location: "{{conf.place}}",
         date: "{{conf.date}}",
         hindex: "{{conf.hindex}}",
-        subject: "{{conf.sub}}",
+        subject: "{{ conf.sub | join: ',' }}",
         startDate: Date.parse("{{conf.start}}"),
         endDate: Date.parse("{{conf.end}}"),
       });
