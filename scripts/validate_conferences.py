@@ -33,6 +33,7 @@ REQUIRED_FIELDS = {
     "sub",
 }
 DEADLINE_RE = re.compile(r"^\d{4}-\d{2}-\d{2} \d{2}:\d{2}:\d{2}$")
+DEADLINE_DATE_RE = re.compile(r"^\d{4}-\d{2}-\d{2}$")
 ID_RE = re.compile(r"^[a-z0-9]+$")
 AMBIGUOUS_TIMEZONES = {
     "PST",
@@ -68,14 +69,21 @@ def parse_iso_date(value: object, field: str, label: str, errors: list[str]) -> 
 def validate_deadline(value: object, field: str, label: str, errors: list[str]) -> bool:
     if value == "TBA":
         return False
-    if not isinstance(value, str) or not DEADLINE_RE.fullmatch(value):
-        errors.append(f"{label}: {field} must be 'TBA' or YYYY-MM-DD HH:MM:SS")
+    if not isinstance(value, str) or not (
+        DEADLINE_DATE_RE.fullmatch(value) or DEADLINE_RE.fullmatch(value)
+    ):
+        errors.append(
+            f"{label}: {field} must be 'TBA', YYYY-MM-DD, or YYYY-MM-DD HH:MM:SS"
+        )
         return True
     try:
+        if DEADLINE_DATE_RE.fullmatch(value):
+            date.fromisoformat(value)
+            return False
         datetime.strptime(value, "%Y-%m-%d %H:%M:%S")
     except ValueError:
         errors.append(f"{label}: {field} is not a real calendar date/time: {value!r}")
-    return True
+    return bool(DEADLINE_RE.fullmatch(value))
 
 
 def validate_timezone(value: object, label: str, errors: list[str]) -> None:

@@ -4,7 +4,8 @@ VERSION:2.0
 PRODID:-//{{ site.domain }}//xr-hri-robotics-deadlines//EN
 X-PUBLISHED-TTL:PT1H
 {%- for conf in site.data.conferences -%}
-{% if conf.abstract_deadline and conf.abstract_deadline != "TBA" %}
+{% assign abstract_deadline_length = conf.abstract_deadline | size %}
+{% if abstract_deadline_length > 10 %}
 BEGIN:VEVENT
 SUMMARY:{{ conf.title }} {{ conf.year }} abstract deadline
 UID:{{ conf.id }}-abstract@{{ site.domain }}
@@ -14,7 +15,8 @@ DTSTAMP:{{ site.time | date: "%Y%m%dT%H%M%SZ" }}
 {% else %}DTSTART;TZID={{ conf.timezone }}:{{ conf.abstract_deadline | date: "%Y%m%dT%H%M%S" }}
 {% endif %}END:VEVENT
 {% endif %}
-{% if conf.deadline != "TBA" %}
+{% assign deadline_length = conf.deadline | size %}
+{% if deadline_length > 10 %}
 BEGIN:VEVENT
 SUMMARY:{{ conf.title }} {{ conf.year }} deadline
 UID:{{ conf.id }}@{{ site.domain }}

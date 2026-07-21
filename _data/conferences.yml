@@ -590,14 +590,14 @@
   id: iros27
   full_name: IEEE/RSJ International Conference on Intelligent Robots and Systems
   link: https://www.ieee-ras.org/event/2027-ieee-rsj-international-conference-on-intelligent-robots-and-systems-iros-70525/
-  deadline: TBA
+  deadline: '2027-03-01'
   place: Florence, Italy
   date: September 26-October 1, 2027
   start: '2027-09-26'
   end: '2027-10-01'
   sub:
     - ROB
-  note: IEEE RAS lists March 1, 2027; the submission time zone is not yet specified.
+  note: IEEE RAS has announced March 1, 2027; the exact cutoff time and time zone have not been published.
 
 - title: RSS
   year: 2026
@@ -618,29 +618,29 @@
   year: 2027
   id: case27
   full_name: IEEE International Conference on Automation Science and Engineering
-  link: https://2027.ieeecase.org/
-  deadline: TBA
+  link: https://www.ieee-ras.org/event/2027-ieee-23rd-international-conference-on-automation-science-and-engineering-case-71151/
+  deadline: '2027-03-02'
   place: Linz, Austria
   date: August 22-27, 2027
   start: '2027-08-22'
   end: '2027-08-27'
   sub:
     - ROB
-  note: IEEE RAS lists March 2, 2027; the submission time zone is not yet specified.
+  note: IEEE RAS has announced March 2, 2027; the conference site is still a template and the exact cutoff time and time zone have not been published.
 
 - title: ROBIO
   year: 2026
   id: robio26
   full_name: IEEE International Conference on Robotics and Biomimetics
   link: https://www.robio2026.org/
-  deadline: TBA
+  deadline: '2026-08-01'
   place: Tengchong, China
   date: December 16-20, 2026
   start: '2026-12-16'
   end: '2026-12-20'
   sub:
     - ROB
-  note: The official site lists August 1, 2026; the submission time zone is not specified.
+  note: The official site has announced August 1, 2026; the exact cutoff time and time zone have not been published.
 
 - title: Humanoids
   year: 2026
@@ -661,21 +661,21 @@
   id: icar25
   full_name: IEEE International Conference on Advanced Robotics
   link: https://icar2025.inaut.unsj.edu.ar/CFP.php
-  deadline: TBA
+  deadline: '2025-08-17'
   place: San Juan, Argentina
   date: December 2-5, 2025
   start: '2025-12-02'
   end: '2025-12-05'
   sub:
     - ROB
-  note: The final deadline was August 17, 2025; the official page does not specify a time zone.
+  note: The official page identifies August 17, 2025 as the final extension; it does not publish the exact cutoff time or time zone.
 
 - title: ARSO
   year: 2027
   id: arso27
   full_name: IEEE International Conference on Advanced Robotics and its Social Impacts
-  link: https://ieee-arso.org/
-  deadline: TBA
+  link: https://www.ieee-ras.org/event/2027-ieee-international-conference-on-advanced-robotics-and-its-social-impacts-arso-73046/
+  deadline: '2026-12-01'
   place: Mountain View, California, USA
   date: March 13-15, 2027
   start: '2027-03-13'
@@ -683,48 +683,50 @@
   sub:
     - HRI
     - ROB
-  note: IEEE RAS lists December 1, 2026; the submission time zone is not yet specified.
+  note: IEEE RAS has announced December 1, 2026; the exact cutoff time and time zone have not been published.
 
 - title: RoboSoft
   year: 2027
   id: robosoft27
   full_name: IEEE International Conference on Soft Robotics
-  link: https://www.ieee-ras.org/event/2027-ieee-10th-international-conference-on-soft-robotics-robosoft-72393/
-  deadline: TBA
+  link: https://robosoft27.com/call-for-papers/
+  deadline: '2026-10-15'
+  timezone: UTC
   place: Brisbane, Australia
   date: April 5-9, 2027
   start: '2027-04-05'
   end: '2027-04-09'
   sub:
     - ROB
+  note: The official call has announced October 15, 2026 in UTC; the exact cutoff time has not been published.
 
 - title: ISRR
   year: 2026
   id: isrr26
   full_name: International Symposium of Robotics Research
   link: https://isrr2026.su.domains/
-  deadline: TBA
+  deadline: '2026-05-31'
   place: Malacca, Malaysia
   date: November 16-20, 2026
   start: '2026-11-16'
   end: '2026-11-20'
   sub:
     - ROB
-  note: The final deadline was May 31, 2026; the official page does not specify a time zone.
+  note: The official site identifies May 31, 2026 as the extended deadline; it does not publish the exact cutoff time or time zone.
 
 - title: SSRR
   year: 2026
   id: ssrr26
   full_name: IEEE International Symposium on Safety, Security, and Rescue Robotics
   link: https://www.ssrr-ieee.org/contribute
-  deadline: TBA
+  deadline: '2026-07-03'
   place: Incheon, South Korea
   date: November 2-4, 2026
   start: '2026-11-02'
   end: '2026-11-04'
   sub:
     - ROB
-  note: The final deadline was July 3, 2026; the official page does not specify a time zone.
+  note: The official call identifies July 3, 2026 as the extended deadline; it does not publish the exact cutoff time or time zone.
 
 - title: CoRL
   year: 2026

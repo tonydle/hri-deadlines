@@ -253,8 +253,27 @@ permalink: /past/
         {% for sub in conf.sub %}
         $('#{{conf.id}} .{{sub}}-tag').html(sub2name["{{sub}}"].toLocaleLowerCase());
         {% endfor %}
+        {% assign deadline_length = conf.deadline | size %}
         {% if conf.deadline == "TBA" %}
         $('#{{conf.id}} .deadline-time').html("TBA");
+        {% elsif deadline_length == 10 %}
+        var announcedDate = moment.utc("{{conf.deadline}}", "YYYY-MM-DD");
+        var announcedDateEndAoE = moment.tz("{{conf.deadline}} 23:59:59", "Etc/GMT+12");
+        $('#{{conf.id}} .deadline-time').html(
+          announcedDate.format('MMMM D, YYYY') +
+          {% if conf.timezone %}" ({{conf.timezone}}; cutoff time TBA)"{% else %}" (cutoff time and time zone TBA)"{% endif %}
+        );
+
+        var today = moment();
+        var diff = today.diff(announcedDateEndAoE);
+        $('#{{conf.id}}').attr("diff", diff);
+
+        if (diff > 0) {
+          $('#{{conf.id}}').addClass('past');
+          years.add({{conf.year}});
+        } else {
+          $('#{{conf.id}}').remove();
+        }
         {% else %}
         // adjust date according to deadline timezone
         var timezone = {% if conf.timezone %}"{{conf.timezone}}" {% else %} "America/New_York" {% endif %};
@@ -286,7 +305,7 @@ permalink: /past/
 
         // check if deadline has passed
         var today = moment();
-        diff = today.diff(confDate);
+        var diff = today.diff(confDate);
 
         $('#{{conf.id}}').attr("diff", diff);
         

@@ -8,7 +8,7 @@ This is a specialised fork of [HCI Deadlines](https://github.com/hci-deadlines/h
 
 Conference records are maintained directly in [`_data/conferences.yml`](_data/conferences.yml). This fork uses a single-repository workflow and does not copy data from the separate HCI Deadlines `conf-database` repository.
 
-Only official conference or call-for-papers pages should be used as sources. Do not estimate unannounced deadlines or submission time zones; use `TBA` and a short note instead.
+Only official conference or call-for-papers pages should be used as sources. Do not estimate unannounced deadlines or submission time zones. Use `TBA` when no deadline is announced, or a quoted `YYYY-MM-DD` value when the date is official but its cutoff time is not; date-only deadlines are shown without a countdown or calendar export.
 
 The list also includes a small, explicit set of broad crossover venues with strong XR or HRI participation: CHI, SIGGRAPH, SIGGRAPH Asia, UIST, TEI and OzCHI. Their records are labelled as crossovers rather than treating broad HCI or graphics conferences as automatically in scope.
 

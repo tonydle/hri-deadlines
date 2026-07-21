@@ -86,7 +86,8 @@ function load_conference_list() {
   var conf_list_all = [];
   {% for conf in site.data.conferences %}
     // Add announced deadlines in red. TBA records still appear as conference events.
-    {% if conf.deadline != "TBA" %}
+    {% assign deadline_length = conf.deadline | size %}
+    {% if deadline_length > 10 %}
     conf_list_all.push({
       id: "{{conf.id}}-deadline",
       abbreviation: "{{conf.id}}",
@@ -101,7 +102,8 @@ function load_conference_list() {
     });
     {% endif %}
 
-    {% if conf.abstract_deadline and conf.abstract_deadline != "TBA" %}
+    {% assign abstract_deadline_length = conf.abstract_deadline | size %}
+    {% if abstract_deadline_length > 10 %}
     conf_list_all.push({
       id: "{{conf.id}}-abstract-deadline",
       abbreviation: "{{conf.id}}",

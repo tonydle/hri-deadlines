@@ -229,10 +229,30 @@
         {% for sub in conf.sub %}
         $('#{{conf.id}} .{{sub}}-tag').html(sub2name["{{sub}}"].toLocaleLowerCase());
         {% endfor %}
+        {% assign deadline_length = conf.deadline | size %}
         {% if conf.deadline == "TBA" %}
         $('#{{conf.id}} .timer').html("TBA");
         $('#{{conf.id}} .deadline-time').html("TBA");
         $('#{{conf.id}}').attr('data-deadline-sort', Number.POSITIVE_INFINITY);
+        {% elsif deadline_length == 10 %}
+        // The official date is known, but not a precise cutoff instant.
+        var announcedDate = moment.utc("{{conf.deadline}}", "YYYY-MM-DD");
+        var announcedDateEndAoE = moment.tz("{{conf.deadline}} 23:59:59", "Etc/GMT+12");
+        $('#{{conf.id}}').attr('data-deadline-sort', announcedDate.valueOf());
+        $('#{{conf.id}} .timer').html("Date announced");
+        $('#{{conf.id}} .timer-small').html("Date set");
+        $('#{{conf.id}} .deadline-time').html(
+          announcedDate.format('MMMM D, YYYY') +
+          {% if conf.timezone %}" ({{conf.timezone}}; cutoff time TBA)"{% else %}" (cutoff time and time zone TBA)"{% endif %}
+        );
+
+        // Keep date-only deadlines live through the end of that date Anywhere on Earth.
+        var today = moment();
+        var diff = today.diff(announcedDateEndAoE);
+        $('#{{conf.id}}').attr("diff", diff);
+        if (diff > 0) {
+          $('#{{conf.id}}').addClass('past-deadline');
+        }
         {% else %}
         // adjust date according to deadline timezone
         var timezone = {% if conf.timezone %}"{{conf.timezone}}" {% else %} "America/New_York" {% endif %};
@@ -284,7 +304,7 @@
 
       // check if date has passed, mark it (past deadlines are on separate page)
       var today = moment();
-      diff = today.diff(confDate);
+      var diff = today.diff(confDate);
 
       $('#{{conf.id}}').attr("diff", diff)
       if (diff > 0) {
