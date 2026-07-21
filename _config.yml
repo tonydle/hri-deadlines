@@ -2,9 +2,9 @@ title: XR, HRI & Robotics Deadlines
 description: Countdowns to major XR, human–robot interaction and robotics conference deadlines
 author: Tony Le
 
-url: 'https://tonydle.github.io'
-domain: 'tonydle.github.io'
-baseurl: '/hri-deadlines'
+url: 'https://deadlines.tonyle.io'
+domain: 'deadlines.tonyle.io'
+baseurl: ''
 
 twitter_hashtag: robotics-deadlines
 github_username: tonydle
