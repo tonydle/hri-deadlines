@@ -633,14 +633,14 @@
   id: robio26
   full_name: IEEE International Conference on Robotics and Biomimetics
   link: https://www.robio2026.org/
-  deadline: '2026-08-01'
+  deadline: '2026-08-01 23:59:59'
+  timezone: UTC-12
   place: Tengchong, China
   date: December 16-20, 2026
   start: '2026-12-16'
   end: '2026-12-20'
   sub:
     - ROB
-  note: The official site has announced August 1, 2026; the exact cutoff time and time zone have not been published.
 
 - title: Humanoids
   year: 2026
@@ -690,7 +690,7 @@
   id: robosoft27
   full_name: IEEE International Conference on Soft Robotics
   link: https://robosoft27.com/call-for-papers/
-  deadline: '2026-10-15'
+  deadline: '2026-10-15 23:59:59'
   timezone: UTC
   place: Brisbane, Australia
   date: April 5-9, 2027
@@ -698,7 +698,6 @@
   end: '2027-04-09'
   sub:
     - ROB
-  note: The official call has announced October 15, 2026 in UTC; the exact cutoff time has not been published.
 
 - title: ISRR
   year: 2026
