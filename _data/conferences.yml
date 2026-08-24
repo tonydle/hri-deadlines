@@ -349,6 +349,21 @@
     - HRI
     - ROB
 
+- title: RO-MAN
+  year: 2027
+  id: roman27
+  full_name: IEEE International Conference on Robot and Human Interactive Communication
+  link: https://www.ieee-ras.org/event/2027-ieee-36th-international-conference-on-robot-and-human-interactive-communication-ro-man-71403/
+  deadline: TBA
+  place: Waterloo, Ontario, Canada
+  date: August 23-27, 2027
+  start: '2027-08-23'
+  end: '2027-08-27'
+  sub:
+    - HRI
+    - ROB
+  note: IEEE RAS has announced the conference dates and venue, but the 2027 paper deadline has not yet been published.
+
 - title: ICSR
   year: 2026
   id: icsr26
@@ -412,14 +427,15 @@
   id: iros27
   full_name: IEEE/RSJ International Conference on Intelligent Robots and Systems
   link: https://www.ieee-ras.org/event/2027-ieee-rsj-international-conference-on-intelligent-robots-and-systems-iros-70525/
-  deadline: '2027-03-01'
+  deadline: '2027-03-01 23:59:59'
+  timezone: America/Los_Angeles
   place: Florence, Italy
   date: September 26-October 1, 2027
   start: '2027-09-26'
   end: '2027-10-01'
   sub:
     - ROB
-  note: IEEE RAS has announced March 1, 2027; the exact cutoff time and time zone have not been published.
+  note: IEEE RAS lists March 1, 2027. The timestamp uses the PaperCept submission system's standard 23:59:59 Pacific Time cutoff; confirm against the final IROS call if it specifies otherwise.
 
 - title: RSS
   year: 2026
@@ -436,26 +452,41 @@
   sub:
     - ROB
 
+- title: RSS
+  year: 2027
+  id: rss27
+  full_name: 'Robotics: Science and Systems'
+  link: https://roboticsconference.org/
+  deadline: TBA
+  place: Athens, Greece
+  date: July 6-11, 2027
+  start: '2027-07-06'
+  end: '2027-07-11'
+  sub:
+    - ROB
+  note: The official RSS site has announced the 2027 conference dates and location, but the paper and abstract deadlines have not yet been published.
+
 - title: CASE
   year: 2027
   id: case27
   full_name: IEEE International Conference on Automation Science and Engineering
   link: https://www.ieee-ras.org/event/2027-ieee-23rd-international-conference-on-automation-science-and-engineering-case-71151/
-  deadline: '2027-03-02'
+  deadline: '2027-03-01 23:59:59'
+  timezone: America/Los_Angeles
   place: Linz, Austria
-  date: August 22-27, 2027
-  start: '2027-08-22'
+  date: August 23-27, 2027
+  start: '2027-08-23'
   end: '2027-08-27'
   sub:
     - ROB
-  note: IEEE RAS has announced March 2, 2027; the conference site is still a template and the exact cutoff time and time zone have not been published.
+  note: IEEE RAS and PaperCept list March 1, 2027. The timestamp uses PaperCept's standard 23:59:59 Pacific Time cutoff; confirm against the final CASE call if it specifies otherwise.
 
 - title: ROBIO
   year: 2026
   id: robio26
   full_name: IEEE International Conference on Robotics and Biomimetics
-  link: https://www.robio2026.org/
-  deadline: '2026-08-01 23:59:59'
+  link: https://www.robio2026.org/call-for-papers.html
+  deadline: '2026-08-15 23:59:59'
   timezone: UTC-12
   place: Tengchong, China
   date: December 16-20, 2026
@@ -463,20 +494,22 @@
   end: '2026-12-20'
   sub:
     - ROB
+  note: The official call extended the paper deadline from August 1 to August 15, 2026; it does not state a cutoff time, so this record retains the existing 23:59:59 AoE convention.
 
 - title: Humanoids
   year: 2026
   id: humanoids26
   full_name: IEEE-RAS International Conference on Humanoid Robots
   link: https://2026.ieee-humanoids.org/call-for-papers
-  deadline: '2026-07-24 23:59:59'
-  timezone: UTC-12
+  deadline: '2026-07-27 23:59:59'
+  timezone: America/Los_Angeles
   place: Santa Clara, California, USA
   date: December 6-9, 2026
   start: '2026-12-06'
   end: '2026-12-09'
   sub:
     - ROB
+  note: PaperCept reported an extension to July 27, 2026 at midnight US Pacific Time; video attachments were due July 30 at the same cutoff.
 
 - title: ICAR
   year: 2025
@@ -497,7 +530,8 @@
   id: arso27
   full_name: IEEE International Conference on Advanced Robotics and its Social Impacts
   link: https://www.ieee-ras.org/event/2027-ieee-international-conference-on-advanced-robotics-and-its-social-impacts-arso-73046/
-  deadline: '2026-12-01'
+  deadline: '2026-12-01 23:59:59'
+  timezone: America/Los_Angeles
   place: Mountain View, California, USA
   date: March 13-15, 2027
   start: '2027-03-13'
@@ -505,7 +539,7 @@
   sub:
     - HRI
     - ROB
-  note: IEEE RAS has announced December 1, 2026; the exact cutoff time and time zone have not been published.
+  note: IEEE RAS lists December 1, 2026. The timestamp uses the PaperCept submission system's standard 23:59:59 Pacific Time cutoff; confirm against the final ARSO call if it specifies otherwise.
 
 - title: RoboSoft
   year: 2027
@@ -563,4 +597,4 @@
   end: '2026-11-12'
   sub:
     - ROB
-  note: Workshops are November 9; the main conference is November 10-12.
+  note: The main conference is November 9-11; workshops are November 12.
