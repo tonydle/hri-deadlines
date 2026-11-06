@@ -814,49 +814,6 @@
   timezone: UTC-12
   note: Two-page abstract, layout schematic and 1–2 minute video.
 
-- title: IEEE VR (Doctoral Consortium)
-  year: 2027
-  id: ieeevr27dc
-  full_name: IEEE Conference on Virtual Reality and 3D User Interfaces — Doctoral Consortium
-  link: https://ieeevr.org/2027/contribute/doctoral-consortium/
-  deadline: '2026-11-10 23:59:59'
-  place: Melbourne, Australia
-  date: February 27-March 3, 2027
-  start: '2027-02-27'
-  end: '2027-03-03'
-  sub:
-  - XR
-  timezone: UTC-12
-
-- title: IEEE VR (Panels)
-  year: 2027
-  id: ieeevr27panels
-  full_name: IEEE Conference on Virtual Reality and 3D User Interfaces — Panels
-  link: https://ieeevr.org/2027/contribute/Panels/
-  deadline: '2026-12-18 23:59:59'
-  place: Melbourne, Australia
-  date: February 27-March 3, 2027
-  start: '2027-02-27'
-  end: '2027-03-03'
-  sub:
-  - XR
-  timezone: UTC-12
-
-- title: IEEE VR (3DUI Contest)
-  year: 2027
-  id: ieeevr273dui
-  full_name: IEEE Conference on Virtual Reality and 3D User Interfaces — 3DUI Contest
-  link: https://ieeevr.org/2027/contribute/3dui-contest/
-  deadline: '2026-12-16'
-  timezone: UTC-12
-  place: Melbourne, Australia
-  date: February 27-March 3, 2027
-  start: '2027-02-27'
-  end: '2027-03-03'
-  sub:
-  - XR
-  note: Registration due December 11; abstract and video due December 16 (AoE). Exact cutoff time unspecified.
-
 - title: CHI (Posters)
   year: 2027
   id: chi27posters
@@ -890,39 +847,6 @@
   - HRI
   timezone: UTC-12
 
-- title: CHI (Panels)
-  year: 2027
-  id: chi27panels
-  full_name: ACM CHI Conference on Human Factors in Computing Systems — Panels
-  link: https://chi2027.acm.org/authors/panels/
-  deadline: '2026-11-19 23:59:59'
-  place: Pittsburgh, Pennsylvania, USA
-  date: May 10-14, 2027
-  start: '2027-05-10'
-  end: '2027-05-14'
-  sub:
-  - HCI
-  - XR
-  - HRI
-  timezone: UTC-12
-
-- title: CHI (Student Research Competition)
-  year: 2027
-  id: chi27src
-  full_name: ACM CHI Conference on Human Factors in Computing Systems — Student Research Competition
-  link: https://chi2027.acm.org/authors/student-research-competition/
-  deadline: '2027-01-21 23:59:59'
-  place: Pittsburgh, Pennsylvania, USA
-  date: May 10-14, 2027
-  start: '2027-05-10'
-  end: '2027-05-14'
-  sub:
-  - HCI
-  - XR
-  - HRI
-  timezone: UTC-12
-  note: Student eligibility rules apply; supervisors cannot be co-authors.
-
 - title: HRI (Videos & Demos)
   year: 2027
   id: hri27videosdemos
@@ -936,37 +860,6 @@
   sub:
   - HRI
   - ROB
-  timezone: UTC-12
-
-- title: HRI (Student Design Competition)
-  year: 2027
-  id: hri27sdc
-  full_name: ACM/IEEE International Conference on Human-Robot Interaction — Student Design Competition
-  link: https://humanrobotinteraction.org/2027/
-  deadline: '2026-11-20 23:59:00'
-  place: Santa Clara, California, USA
-  date: March 8-12, 2027
-  start: '2027-03-08'
-  end: '2027-03-12'
-  sub:
-  - HRI
-  - ROB
-  timezone: UTC-12
-
-- title: TEI (Student Design Competition)
-  year: 2027
-  id: tei27sdc
-  full_name: ACM International Conference on Tangible, Embedded and Embodied Interaction — Student Design Competition
-  link: https://tei.acm.org/2027/cfp-sdc.html
-  deadline: '2026-11-09'
-  place: Lisbon, Portugal
-  date: January 24-27, 2027
-  start: '2027-01-24'
-  end: '2027-01-27'
-  sub:
-  - HCI
-  - XR
-  note: Student design competition; AoE date published, exact cutoff time unspecified.
   timezone: UTC-12
 
 - title: RoboSoft (Extended Abstracts)
@@ -999,21 +892,6 @@
   timezone: America/Los_Angeles
   note: Creative work; contributed abstract submission.
 
-- title: ICRA (Community Building Day)
-  year: 2027
-  id: icra27community
-  full_name: IEEE International Conference on Robotics and Automation — Community Building Day
-  link: https://2027.ieee-icra.org/announcements/call-for-community-building-day/
-  deadline: '2026-11-30 23:59:00'
-  place: Seoul, South Korea
-  date: May 24-28, 2027
-  start: '2027-05-24'
-  end: '2027-05-28'
-  sub:
-  - ROB
-  timezone: America/Los_Angeles
-  note: Proposals for sessions, panels, workshops and networking events.
-
 - title: CHI (Journal Presentations)
   year: 2027
   id: chi27journals
@@ -1030,20 +908,3 @@
   - XR
   - HRI
   note: Presentation of eligible accepted journal articles; contact chairs before submitting.
-
-- title: CHI (Digital Experience Competition)
-  year: 2027
-  id: chi27digitalexperience
-  full_name: ACM CHI Conference on Human Factors in Computing Systems — Digital Experience Competition
-  link: https://chi2027.acm.org/
-  deadline: '2026-12-04 23:59:59'
-  timezone: UTC-12
-  place: Pittsburgh, Pennsylvania, USA
-  date: May 10-14, 2027
-  start: '2027-05-10'
-  end: '2027-05-14'
-  sub:
-  - HCI
-  - XR
-  - HRI
-  note: Digital Experience Competition; see the official site for submission guidance.
