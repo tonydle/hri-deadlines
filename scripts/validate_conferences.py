@@ -18,7 +18,7 @@ except ImportError as exc:  # pragma: no cover - depends on the local environmen
 
 
 DATA_FILE = Path(__file__).resolve().parents[1] / "_data" / "conferences.yml"
-ALLOWED_CATEGORIES = {"XR", "HRI", "ROB"}
+ALLOWED_CATEGORIES = {"XR", "HCI", "HRI", "ROB"}
 REQUIRED_FIELDS = {
     "title",
     "year",
@@ -160,8 +160,14 @@ def main() -> int:
             if parsed_url.scheme not in {"http", "https"} or not parsed_url.netloc:
                 errors.append(f"{label}: malformed URL: {url!r}")
 
-        start = parse_iso_date(record.get("start"), "start", label, errors)
-        end = parse_iso_date(record.get("end"), "end", label, errors)
+        # Explicitly unannounced event dates must be a pair; never invent dates.
+        if record.get("start") == "TBA" and record.get("end") == "TBA":
+            start = end = None
+            if record.get("date") != "TBA":
+                errors.append(f"{label}: date must be TBA when event dates are unannounced")
+        else:
+            start = parse_iso_date(record.get("start"), "start", label, errors)
+            end = parse_iso_date(record.get("end"), "end", label, errors)
         if start and end:
             if start > end:
                 errors.append(f"{label}: start date must not be after end date")

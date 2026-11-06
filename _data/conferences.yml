@@ -143,9 +143,10 @@
   start: '2027-05-10'
   end: '2027-05-14'
   sub:
+    - HCI
     - XR
     - HRI
-  note: Curated crossover venue; CHI's overall scope is broader than XR and HRI. There is no abstract deadline for papers.
+  note: No abstract deadline.
 
 - title: SIGGRAPH
   year: 2026
@@ -161,21 +162,23 @@
   end: '2026-07-23'
   sub:
     - XR
-  note: Curated XR crossover venue; SIGGRAPH's overall scope is broader than XR.
+  note: XR crossover venue.
 
 - title: SIGGRAPH
   year: 2027
   id: siggraph27
   full_name: ACM SIGGRAPH Conference on Computer Graphics and Interactive Techniques
-  link: https://blog.siggraph.org/2026/01/hope-inspiration-and-motivation-diana-arellanos-visions-for-siggraph-2028.html/
-  deadline: TBA
+  link: https://s2027.siggraph.org/program/technical-papers/
+  deadline: '2027-01-28 22:00:00'
+  abstract_deadline: '2027-01-21 22:00:00'
+  timezone: UTC
   place: Anaheim, California, USA
   date: August 8-12, 2027
   start: '2027-08-08'
   end: '2027-08-12'
   sub:
     - XR
-  note: Curated XR crossover venue; the 2027 technical-papers deadline has not been announced.
+  note: XR crossover; form/conflicts due January 21; upload due January 29 (22:00 UTC).
 
 - title: SIGGRAPH Asia (Technical Papers)
   year: 2026
@@ -191,7 +194,7 @@
   end: '2026-12-04'
   sub:
     - XR
-  note: Curated XR crossover venue; SIGGRAPH Asia's overall scope is broader than XR.
+  note: XR crossover venue.
 
 - title: SIGGRAPH Asia (Technical Communications)
   year: 2026
@@ -206,7 +209,7 @@
   end: '2026-12-04'
   sub:
     - XR
-  note: Curated XR crossover venue; Technical Communications are short-format archival papers presented as talks.
+  note: XR crossover; short archival papers presented as talks.
 
 - title: SIGGRAPH Asia (Posters)
   year: 2026
@@ -221,7 +224,7 @@
   end: '2026-12-04'
   sub:
     - XR
-  note: Curated XR crossover venue; Poster submissions use a 1–2 page abstract.
+  note: XR crossover; 1–2 page abstract.
 
 - title: UIST
   year: 2026
@@ -236,8 +239,8 @@
   start: '2026-11-02'
   end: '2026-11-05'
   sub:
+    - HCI
     - XR
-  note: Curated XR crossover venue; UIST explicitly includes virtual and augmented reality in its scope.
 
 - title: TEI
   year: 2027
@@ -251,8 +254,9 @@
   start: '2027-01-24'
   end: '2027-01-27'
   sub:
+    - HCI
     - XR
-  note: Curated XR crossover venue focused on tangible, spatial and embodied interaction.
+  note: Tangible and embodied interaction.
 
 - title: OzCHI (Long Papers)
   year: 2026
@@ -266,25 +270,27 @@
   start: '2026-11-21'
   end: '2026-11-25'
   sub:
+    - HCI
     - XR
     - HRI
-  note: Curated Australasian crossover venue; OzCHI's overall scope is broader than XR and HRI. The long-paper deadline was extended from June 2 to June 12, 2026.
+  note: Extended from June 2 to June 12.
 
 - title: OzCHI (Late-Breaking Work)
   year: 2026
   id: ozchi26lbw
   full_name: Australian Conference on Human-Computer Interaction — Late-Breaking Work
   link: https://www.ozchi.org/2026/papers
-  deadline: '2026-08-04 23:59:59'
+  deadline: '2026-08-11 23:59:00'
   timezone: UTC-12
   place: Adelaide, South Australia, Australia
   date: November 21-25, 2026
   start: '2026-11-21'
   end: '2026-11-25'
   sub:
+    - HCI
     - XR
     - HRI
-  note: Curated Australasian crossover venue; accepted late-breaking work is published as a short paper in the ACM Digital Library.
+  note: Extended to August 11; short papers published in ACM DL.
 
 - title: HRI
   year: 2025
@@ -353,8 +359,8 @@
   year: 2027
   id: roman27
   full_name: IEEE International Conference on Robot and Human Interactive Communication
-  link: https://www.ieee-ras.org/event/2027-ieee-36th-international-conference-on-robot-and-human-interactive-communication-ro-man-71403/
-  deadline: TBA
+  link: https://www.ro-man2027.ca/
+  deadline: '2027-03-07'
   place: Waterloo, Ontario, Canada
   date: August 23-27, 2027
   start: '2027-08-23'
@@ -362,7 +368,7 @@
   sub:
     - HRI
     - ROB
-  note: IEEE RAS has announced the conference dates and venue, but the 2027 paper deadline has not yet been published.
+  note: No extensions; double-anonymized review. LBR due June 1. Cutoff time/zone unspecified.
 
 - title: ICSR
   year: 2026
@@ -378,6 +384,22 @@
   sub:
     - HRI
     - ROB
+
+- title: ICSR
+  year: 2027
+  id: icsr27
+  full_name: International Conference on Social Robotics
+  link: https://icsr2027.org/submission/
+  deadline: '2027-02-15 23:59:59'
+  timezone: UTC-12
+  place: Potsdam, Germany
+  date: July 25-28, 2027
+  start: '2027-07-25'
+  end: '2027-07-28'
+  sub:
+    - HRI
+    - ROB
+  note: ICSR + Health theme; all social robotics topics welcome. Regular and short papers share the deadline.
 
 - title: HAI
   year: 2026
@@ -398,14 +420,14 @@
   id: icra27
   full_name: IEEE International Conference on Robotics and Automation
   link: https://2027.ieee-icra.org/announcements/call-for-technical-papers/
-  deadline: '2026-09-15 23:59:59'
-  timezone: America/Los_Angeles
+  deadline: '2026-09-16'
   place: Seoul, South Korea
   date: May 24-28, 2027
   start: '2027-05-24'
   end: '2027-05-28'
   sub:
     - ROB
+  note: Extended to September 16; stated PST cutoff conflicts with daylight saving, so shown date-only.
 
 - title: ACRA
   year: 2026
@@ -420,22 +442,21 @@
   end: '2026-12-02'
   sub:
     - ROB
-  note: Notification is October 20 and camera-ready is November 10.
+  note: Notification October 20; camera-ready November 10.
 
 - title: IROS
   year: 2027
   id: iros27
   full_name: IEEE/RSJ International Conference on Intelligent Robots and Systems
   link: https://www.ieee-ras.org/event/2027-ieee-rsj-international-conference-on-intelligent-robots-and-systems-iros-70525/
-  deadline: '2027-03-01 23:59:59'
-  timezone: America/Los_Angeles
+  deadline: '2027-03-01'
   place: Florence, Italy
-  date: September 26-October 1, 2027
-  start: '2027-09-26'
+  date: September 27-October 1, 2027
+  start: '2027-09-27'
   end: '2027-10-01'
   sub:
     - ROB
-  note: IEEE RAS lists March 1, 2027. The timestamp uses the PaperCept submission system's standard 23:59:59 Pacific Time cutoff; confirm against the final IROS call if it specifies otherwise.
+  note: IEEE RAS deadline; cutoff time/zone unconfirmed. Event dates per conference site (https://2027.ieee-iros.org/?s=2027).
 
 - title: RSS
   year: 2026
@@ -456,45 +477,44 @@
   year: 2027
   id: rss27
   full_name: 'Robotics: Science and Systems'
-  link: https://roboticsconference.org/
-  deadline: TBA
+  link: https://roboticsconference.org/information/cfp/
+  deadline: '2026-12-04 23:59:00'
+  timezone: UTC-12
   place: Athens, Greece
   date: July 6-11, 2027
   start: '2027-07-06'
   end: '2027-07-11'
   sub:
     - ROB
-  note: The official RSS site has announced the 2027 conference dates and location, but the paper and abstract deadlines have not yet been published.
+  note: Two-stage review; extended abstract due December 4; invited full paper due April 16 (23:59 AoE).
 
 - title: CASE
   year: 2027
   id: case27
   full_name: IEEE International Conference on Automation Science and Engineering
   link: https://www.ieee-ras.org/event/2027-ieee-23rd-international-conference-on-automation-science-and-engineering-case-71151/
-  deadline: '2027-03-01 23:59:59'
-  timezone: America/Los_Angeles
+  deadline: '2027-03-01'
   place: Linz, Austria
   date: August 23-27, 2027
   start: '2027-08-23'
   end: '2027-08-27'
   sub:
     - ROB
-  note: IEEE RAS and PaperCept list March 1, 2027. The timestamp uses PaperCept's standard 23:59:59 Pacific Time cutoff; confirm against the final CASE call if it specifies otherwise.
+  note: IEEE RAS/PaperCept deadline; cutoff time/zone unconfirmed.
 
 - title: ROBIO
   year: 2026
   id: robio26
   full_name: IEEE International Conference on Robotics and Biomimetics
   link: https://www.robio2026.org/call-for-papers.html
-  deadline: '2026-08-15 23:59:59'
-  timezone: UTC-12
+  deadline: '2026-08-15'
   place: Tengchong, China
   date: December 16-20, 2026
   start: '2026-12-16'
   end: '2026-12-20'
   sub:
     - ROB
-  note: The official call extended the paper deadline from August 1 to August 15, 2026; it does not state a cutoff time, so this record retains the existing 23:59:59 AoE convention.
+  note: Extended from August 1; cutoff time/zone unspecified.
 
 - title: Humanoids
   year: 2026
@@ -509,7 +529,7 @@
   end: '2026-12-09'
   sub:
     - ROB
-  note: PaperCept reported an extension to July 27, 2026 at midnight US Pacific Time; video attachments were due July 30 at the same cutoff.
+  note: Extended to July 27 (Pacific Time); videos due July 30.
 
 - title: ICAR
   year: 2025
@@ -523,15 +543,14 @@
   end: '2025-12-05'
   sub:
     - ROB
-  note: The official page identifies August 17, 2025 as the final extension; it does not publish the exact cutoff time or time zone.
+  note: Final extension; cutoff time/zone unspecified.
 
 - title: ARSO
   year: 2027
   id: arso27
   full_name: IEEE International Conference on Advanced Robotics and its Social Impacts
   link: https://www.ieee-ras.org/event/2027-ieee-international-conference-on-advanced-robotics-and-its-social-impacts-arso-73046/
-  deadline: '2026-12-01 23:59:59'
-  timezone: America/Los_Angeles
+  deadline: '2026-12-01'
   place: Mountain View, California, USA
   date: March 13-15, 2027
   start: '2027-03-13'
@@ -539,21 +558,22 @@
   sub:
     - HRI
     - ROB
-  note: IEEE RAS lists December 1, 2026. The timestamp uses the PaperCept submission system's standard 23:59:59 Pacific Time cutoff; confirm against the final ARSO call if it specifies otherwise.
+  note: IEEE RAS deadline; cutoff time/zone unconfirmed.
 
 - title: RoboSoft
   year: 2027
   id: robosoft27
   full_name: IEEE International Conference on Soft Robotics
   link: https://robosoft27.com/call-for-papers/
-  deadline: '2026-10-15 23:59:59'
-  timezone: UTC
+  deadline: '2026-10-31 23:59:00'
+  timezone: America/Los_Angeles
   place: Brisbane, Australia
   date: April 5-9, 2027
   start: '2027-04-05'
   end: '2027-04-09'
   sub:
     - ROB
+  note: Extended from October 15 to October 31 (Pacific Time).
 
 - title: ISRR
   year: 2026
@@ -567,7 +587,7 @@
   end: '2026-11-20'
   sub:
     - ROB
-  note: The official site identifies May 31, 2026 as the extended deadline; it does not publish the exact cutoff time or time zone.
+  note: Extended deadline; cutoff time/zone unspecified.
 
 - title: SSRR
   year: 2026
@@ -581,7 +601,7 @@
   end: '2026-11-04'
   sub:
     - ROB
-  note: The official call identifies July 3, 2026 as the extended deadline; it does not publish the exact cutoff time or time zone.
+  note: Extended deadline; cutoff time/zone unspecified.
 
 - title: CoRL
   year: 2026
@@ -597,4 +617,433 @@
   end: '2026-11-12'
   sub:
     - ROB
-  note: The main conference is November 9-11; workshops are November 12.
+  note: Main conference November 9–11; workshops November 12.
+
+- title: ISMAR
+  year: 2027
+  id: ismar27
+  full_name: IEEE International Symposium on Mixed and Augmented Reality
+  link: https://www.ismar.net/ismar_future/
+  deadline: TBA
+  place: Kobe, Japan
+  date: October 11-15, 2027
+  start: '2027-10-11'
+  end: '2027-10-15'
+  sub:
+    - XR
+  note: Tentative event dates; paper deadline TBA.
+
+- title: SIGGRAPH Asia (Technical Papers)
+  year: 2027
+  id: siggraphasia27
+  full_name: ACM SIGGRAPH Asia Conference on Computer Graphics and Interactive Techniques — Technical Papers
+  link: https://asia.siggraph.org/2026/about-the-event/siggraph-asia-2027/
+  deadline: TBA
+  place: Tokyo, Japan
+  date: November 30-December 3, 2027
+  start: '2027-11-30'
+  end: '2027-12-03'
+  sub:
+    - XR
+  note: XR crossover; submission details TBA.
+
+- title: HRI (Late Breaking Reports)
+  year: 2027
+  id: hri27lbr
+  full_name: ACM/IEEE International Conference on Human-Robot Interaction — Late Breaking Reports
+  link: https://humanrobotinteraction.org/2027/
+  deadline: '2026-12-08 23:59:00'
+  timezone: UTC-12
+  place: Santa Clara, California, USA
+  date: March 8-12, 2027
+  start: '2027-03-08'
+  end: '2027-03-12'
+  sub:
+    - HRI
+    - ROB
+  note: Notification January 13, 2027.
+
+- title: IUI
+  year: 2027
+  id: iui27
+  full_name: ACM Conference on Intelligent User Interfaces
+  link: https://iui.acm.org/2027/call-for-papers/
+  deadline: '2026-08-20 23:59:59'
+  abstract_deadline: '2026-08-13 23:59:59'
+  timezone: UTC-12
+  place: Helsinki, Finland
+  date: February 8-11, 2027
+  start: '2027-02-08'
+  end: '2027-02-11'
+  sub:
+    - HCI
+
+- title: DIS
+  year: 2027
+  id: dis27
+  full_name: ACM Designing Interactive Systems Conference
+  link: https://dis.acm.org/2027/call-for-papers/
+  deadline: '2027-01-18 23:59:59'
+  abstract_deadline: '2027-01-11 23:59:59'
+  timezone: UTC-12
+  place: Stockholm, Sweden
+  date: June 28-July 2, 2027
+  start: '2027-06-28'
+  end: '2027-07-02'
+  sub:
+    - HCI
+  note: Hybrid; online presentations June 21–25.
+
+- title: CSCW
+  year: 2027
+  id: cscw27
+  full_name: ACM Conference on Computer-Supported Cooperative Work and Social Computing
+  link: https://cscw.acm.org/2027/
+  deadline: TBA
+  place: Philadelphia, Pennsylvania, USA
+  date: October 16-20, 2027
+  start: '2027-10-16'
+  end: '2027-10-20'
+  sub:
+    - HCI
+  note: Rolling PACMHCI submissions; no fixed deadline. Presentation depends on acceptance before the programme is set.
+
+- title: I3D
+  year: 2027
+  id: i3d27
+  full_name: ACM SIGGRAPH Symposium on Interactive 3D Graphics and Games
+  link: https://i3dsymposium.org/2027/
+  deadline: TBA
+  place: TBA
+  date: TBA
+  start: TBA
+  end: TBA
+  sub:
+  - XR
+  note: Conference dates, venue and submission deadlines TBA.
+
+- title: Eurographics
+  year: 2027
+  id: eurographics27
+  full_name: Annual Conference of the European Association for Computer Graphics
+  link: https://eg2027.isti.cnr.it/call-for-papers/
+  deadline: '2026-10-02 00:59:00'
+  abstract_deadline: '2026-09-25 23:59:00'
+  timezone: UTC-12
+  place: Lucca, Italy
+  date: May 10-14, 2027
+  start: '2027-05-10'
+  end: '2027-05-14'
+  sub:
+  - XR
+  note: Full-paper deadline extended; accepted papers published in Computer Graphics Forum.
+
+- title: Eurographics (Short Papers)
+  year: 2027
+  id: eurographics27short
+  full_name: Annual Conference of the European Association for Computer Graphics — Short Papers
+  link: https://eg2027.isti.cnr.it/call-for-short-papers/
+  deadline: '2027-01-22 23:59:00'
+  place: Lucca, Italy
+  date: May 10-14, 2027
+  start: '2027-05-10'
+  end: '2027-05-14'
+  sub:
+  - XR
+  timezone: UTC
+  note: Up to four pages; compact, self-contained graphics research.
+
+- title: Eurographics (Education Papers)
+  year: 2027
+  id: eurographics27education
+  full_name: Annual Conference of the European Association for Computer Graphics — Education Papers
+  link: https://eg2027.isti.cnr.it/call-for-education-papers/
+  deadline: '2027-02-14 23:59:00'
+  place: Lucca, Italy
+  date: May 10-14, 2027
+  start: '2027-05-10'
+  end: '2027-05-14'
+  sub:
+  - XR
+  timezone: UTC
+  abstract_deadline: '2027-02-07 23:59:00'
+
+- title: IUI (Posters & Demos)
+  year: 2027
+  id: iui27postersdemos
+  full_name: ACM Conference on Intelligent User Interfaces — Posters & Demos
+  link: https://iui.acm.org/2027/call-for-posters-demos/
+  deadline: '2026-11-10 23:59:00'
+  place: Helsinki, Finland
+  date: February 8-11, 2027
+  start: '2027-02-08'
+  end: '2027-02-11'
+  sub:
+  - HCI
+  timezone: UTC-12
+  note: Four pages plus references; demos also require a video.
+
+- title: IEEE VR (Posters)
+  year: 2027
+  id: ieeevr27posters
+  full_name: IEEE Conference on Virtual Reality and 3D User Interfaces — Posters
+  link: https://ieeevr.org/2027/contribute/posters/
+  deadline: '2026-12-07 23:59:59'
+  place: Melbourne, Australia
+  date: February 27-March 3, 2027
+  start: '2027-02-27'
+  end: '2027-03-03'
+  sub:
+  - XR
+  timezone: UTC-12
+  abstract_deadline: '2026-12-02 23:59:59'
+  note: Two-page extended abstract; metadata due December 2.
+
+- title: IEEE VR (Research Demos)
+  year: 2027
+  id: ieeevr27demos
+  full_name: IEEE Conference on Virtual Reality and 3D User Interfaces — Research Demos
+  link: https://ieeevr.org/2027/contribute/demos/
+  deadline: '2026-12-07 23:59:59'
+  place: Melbourne, Australia
+  date: February 27-March 3, 2027
+  start: '2027-02-27'
+  end: '2027-03-03'
+  sub:
+  - XR
+  timezone: UTC-12
+  note: Two-page abstract, layout schematic and 1–2 minute video.
+
+- title: IEEE VR (Doctoral Consortium)
+  year: 2027
+  id: ieeevr27dc
+  full_name: IEEE Conference on Virtual Reality and 3D User Interfaces — Doctoral Consortium
+  link: https://ieeevr.org/2027/contribute/doctoral-consortium/
+  deadline: '2026-11-10 23:59:59'
+  place: Melbourne, Australia
+  date: February 27-March 3, 2027
+  start: '2027-02-27'
+  end: '2027-03-03'
+  sub:
+  - XR
+  timezone: UTC-12
+
+- title: IEEE VR (Panels)
+  year: 2027
+  id: ieeevr27panels
+  full_name: IEEE Conference on Virtual Reality and 3D User Interfaces — Panels
+  link: https://ieeevr.org/2027/contribute/Panels/
+  deadline: '2026-12-18 23:59:59'
+  place: Melbourne, Australia
+  date: February 27-March 3, 2027
+  start: '2027-02-27'
+  end: '2027-03-03'
+  sub:
+  - XR
+  timezone: UTC-12
+
+- title: IEEE VR (3DUI Contest)
+  year: 2027
+  id: ieeevr273dui
+  full_name: IEEE Conference on Virtual Reality and 3D User Interfaces — 3DUI Contest
+  link: https://ieeevr.org/2027/contribute/3dui-contest/
+  deadline: '2026-12-16'
+  timezone: UTC-12
+  place: Melbourne, Australia
+  date: February 27-March 3, 2027
+  start: '2027-02-27'
+  end: '2027-03-03'
+  sub:
+  - XR
+  note: Registration due December 11; abstract and video due December 16 (AoE). Exact cutoff time unspecified.
+
+- title: CHI (Posters)
+  year: 2027
+  id: chi27posters
+  full_name: ACM CHI Conference on Human Factors in Computing Systems — Posters
+  link: https://chi2027.acm.org/authors/posters/
+  deadline: '2027-01-21 23:59:59'
+  place: Pittsburgh, Pennsylvania, USA
+  date: May 10-14, 2027
+  start: '2027-05-10'
+  end: '2027-05-14'
+  sub:
+  - HCI
+  - XR
+  - HRI
+  timezone: UTC-12
+  note: Up to four pages plus references.
+
+- title: CHI (Interactive Demos)
+  year: 2027
+  id: chi27demos
+  full_name: ACM CHI Conference on Human Factors in Computing Systems — Interactive Demos
+  link: https://chi2027.acm.org/authors/interactive-demos/
+  deadline: '2027-01-21 23:59:59'
+  place: Pittsburgh, Pennsylvania, USA
+  date: May 10-14, 2027
+  start: '2027-05-10'
+  end: '2027-05-14'
+  sub:
+  - HCI
+  - XR
+  - HRI
+  timezone: UTC-12
+
+- title: CHI (Panels)
+  year: 2027
+  id: chi27panels
+  full_name: ACM CHI Conference on Human Factors in Computing Systems — Panels
+  link: https://chi2027.acm.org/authors/panels/
+  deadline: '2026-11-19 23:59:59'
+  place: Pittsburgh, Pennsylvania, USA
+  date: May 10-14, 2027
+  start: '2027-05-10'
+  end: '2027-05-14'
+  sub:
+  - HCI
+  - XR
+  - HRI
+  timezone: UTC-12
+
+- title: CHI (Student Research Competition)
+  year: 2027
+  id: chi27src
+  full_name: ACM CHI Conference on Human Factors in Computing Systems — Student Research Competition
+  link: https://chi2027.acm.org/authors/student-research-competition/
+  deadline: '2027-01-21 23:59:59'
+  place: Pittsburgh, Pennsylvania, USA
+  date: May 10-14, 2027
+  start: '2027-05-10'
+  end: '2027-05-14'
+  sub:
+  - HCI
+  - XR
+  - HRI
+  timezone: UTC-12
+  note: Student eligibility rules apply; supervisors cannot be co-authors.
+
+- title: HRI (Videos & Demos)
+  year: 2027
+  id: hri27videosdemos
+  full_name: ACM/IEEE International Conference on Human-Robot Interaction — Videos & Demos
+  link: https://humanrobotinteraction.org/2027/
+  deadline: '2026-11-20 23:59:00'
+  place: Santa Clara, California, USA
+  date: March 8-12, 2027
+  start: '2027-03-08'
+  end: '2027-03-12'
+  sub:
+  - HRI
+  - ROB
+  timezone: UTC-12
+
+- title: HRI (Student Design Competition)
+  year: 2027
+  id: hri27sdc
+  full_name: ACM/IEEE International Conference on Human-Robot Interaction — Student Design Competition
+  link: https://humanrobotinteraction.org/2027/
+  deadline: '2026-11-20 23:59:00'
+  place: Santa Clara, California, USA
+  date: March 8-12, 2027
+  start: '2027-03-08'
+  end: '2027-03-12'
+  sub:
+  - HRI
+  - ROB
+  timezone: UTC-12
+
+- title: TEI (Student Design Competition)
+  year: 2027
+  id: tei27sdc
+  full_name: ACM International Conference on Tangible, Embedded and Embodied Interaction — Student Design Competition
+  link: https://tei.acm.org/2027/cfp-sdc.html
+  deadline: '2026-11-09'
+  place: Lisbon, Portugal
+  date: January 24-27, 2027
+  start: '2027-01-24'
+  end: '2027-01-27'
+  sub:
+  - HCI
+  - XR
+  note: Student design competition; AoE date published, exact cutoff time unspecified.
+  timezone: UTC-12
+
+- title: RoboSoft (Extended Abstracts)
+  year: 2027
+  id: robosoft27abstracts
+  full_name: IEEE International Conference on Soft Robotics — Extended Abstracts
+  link: https://robosoft27.com/call-for-extended-abstracts/
+  deadline: '2027-02-15 23:59:00'
+  place: Brisbane, Australia
+  date: April 5-9, 2027
+  start: '2027-04-05'
+  end: '2027-04-09'
+  sub:
+  - ROB
+  timezone: America/Los_Angeles
+  note: Non-archival; 1–2 pages plus optional reference page. Lightning talk and poster.
+
+- title: ICRA (Arts in Robotics)
+  year: 2027
+  id: icra27arts
+  full_name: IEEE International Conference on Robotics and Automation — Arts in Robotics
+  link: https://2027.ieee-icra.org/announcements/call-for-arts-in-robotics/
+  deadline: '2026-12-01 23:59:00'
+  place: Seoul, South Korea
+  date: May 24-28, 2027
+  start: '2027-05-24'
+  end: '2027-05-28'
+  sub:
+  - ROB
+  timezone: America/Los_Angeles
+  note: Creative work; contributed abstract submission.
+
+- title: ICRA (Community Building Day)
+  year: 2027
+  id: icra27community
+  full_name: IEEE International Conference on Robotics and Automation — Community Building Day
+  link: https://2027.ieee-icra.org/announcements/call-for-community-building-day/
+  deadline: '2026-11-30 23:59:00'
+  place: Seoul, South Korea
+  date: May 24-28, 2027
+  start: '2027-05-24'
+  end: '2027-05-28'
+  sub:
+  - ROB
+  timezone: America/Los_Angeles
+  note: Proposals for sessions, panels, workshops and networking events.
+
+- title: CHI (Journal Presentations)
+  year: 2027
+  id: chi27journals
+  full_name: ACM CHI Conference on Human Factors in Computing Systems — Journal Presentations
+  link: https://chi2027.acm.org/authors/journals/
+  deadline: '2027-01-14 23:59:59'
+  timezone: UTC-12
+  place: Pittsburgh, Pennsylvania, USA
+  date: May 10-14, 2027
+  start: '2027-05-10'
+  end: '2027-05-14'
+  sub:
+  - HCI
+  - XR
+  - HRI
+  note: Presentation of eligible accepted journal articles; contact chairs before submitting.
+
+- title: CHI (Digital Experience Competition)
+  year: 2027
+  id: chi27digitalexperience
+  full_name: ACM CHI Conference on Human Factors in Computing Systems — Digital Experience Competition
+  link: https://chi2027.acm.org/
+  deadline: '2026-12-04 23:59:59'
+  timezone: UTC-12
+  place: Pittsburgh, Pennsylvania, USA
+  date: May 10-14, 2027
+  start: '2027-05-10'
+  end: '2027-05-14'
+  sub:
+  - HCI
+  - XR
+  - HRI
+  note: Digital Experience Competition; see the official site for submission guidance.

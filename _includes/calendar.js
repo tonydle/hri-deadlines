@@ -119,7 +119,7 @@ function load_conference_list() {
     {% endif %}
 
     // add Conferences in chosen color
-    {% if conf.start != "" %}
+    {% if conf.start and conf.start != "" and conf.start != "TBA" and conf.end != "TBA" %}
       var color = "black";
       {% assign conf_sub = conf.sub | first %} // use first sub to choose color
       {% for type in site.data.types %}

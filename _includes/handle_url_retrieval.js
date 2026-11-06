@@ -7,6 +7,13 @@ if (subs == undefined) {
   subs = subs.toUpperCase().split(",");
 }
 
+// Preserve saved selections and links from the former graphics-only filter.
+if (Array.isArray(subs)) {
+  subs = Array.from(new Set(subs.map(function (sub) {
+    return sub === "CG" ? "XR" : sub;
+  })));
+}
+
 // Apply selections
 if (subs == undefined) {
   subs = all_subs;

@@ -1,7 +1,11 @@
 ---
-- name: Extended Reality
+- name: XR and Computer Graphics
   sub: XR
   color: '#2563EB'
+
+- name: Human-Computer Interaction
+  sub: HCI
+  color: '#059669'
 
 - name: Human-Robot Interaction
   sub: HRI
