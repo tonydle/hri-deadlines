@@ -548,17 +548,34 @@
 - title: ARSO
   year: 2027
   id: arso27
-  full_name: IEEE International Conference on Advanced Robotics and its Social Impacts
+  full_name: IEEE Conference on Advanced Robotics and its Social Impact
   link: https://www.ieee-ras.org/event/2027-ieee-international-conference-on-advanced-robotics-and-its-social-impacts-arso-73046/
-  deadline: '2026-12-01'
-  place: Mountain View, California, USA
+  deadline: '2026-12-01 23:59:59'
+  timezone: America/Los_Angeles
+  place: Mountain View and Palo Alto, California, USA
   date: March 13-15, 2027
   start: '2027-03-13'
   end: '2027-03-15'
   sub:
     - HRI
     - ROB
-  note: IEEE RAS deadline; cutoff time/zone unconfirmed.
+  note: Regular and organized-session papers share this deadline; cutoff confirmed by PaperCept.
+
+- title: ARSO (Position Papers)
+  year: 2027
+  id: arso27position
+  full_name: IEEE Conference on Advanced Robotics and its Social Impact — Position Papers
+  link: https://www.ieee-ras.org/event/2027-ieee-international-conference-on-advanced-robotics-and-its-social-impacts-arso-73046/
+  deadline: '2026-12-01 23:59:59'
+  timezone: America/Los_Angeles
+  place: Mountain View and Palo Alto, California, USA
+  date: March 13-15, 2027
+  start: '2027-03-13'
+  end: '2027-03-15'
+  sub:
+    - HRI
+    - ROB
+  note: Position-paper deadline and Pacific Time cutoff confirmed by PaperCept.
 
 - title: RoboSoft
   year: 2027
